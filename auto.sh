@@ -5,36 +5,25 @@
 
 
 getInfo(){
-
-    result= curl -s  "http://data.fixer.io/api/latest?access_key=$APIKEY&format=1/" | jq '.timestamp,.base,.rates.TND,.rates.USD'
-    # echo "$id"
-    # echo $result | jq -r '.rates.TND' 
-
+    
+    result= curl -s  "http://data.fixer.io/api/latest?access_key=$APIKEY&format=1/" | jq '.timestamp,.base,.rates.TND,.rates.USD,.rates.BTC'
     echo $result
-
+    
 }
 
 extract(){
-    now=`date`
-    # file= test.json
-    # test= cat test.json | jq '.timestamp,.base,.rates.TND, .rates.USD' 
-    timeupdate=$(head -n 1 test.json)
-    base=$(sed '2q;d' test.json)
-    tnd=$(sed '3q;d' test.json)
-    usd=$(sed '4q;d' test.json)
-    # echo $base
+    now=$(date '+%F à %H:%M:%S')
 
-   echo  "## Current date: $now\n "  "# Monaie de base : "$base "\n" "# Equivaut en 🇹🇳 à : "$tnd > test.md
-#     base= cat test.json |  jq '.base'
-#     tnd= cat test.json |  jq '.rates.TND'
-#     usd= cat test.json |  jq '.rates.USD'
-# bash 
+    timeupdate=$(head -n 1 currency.json)
+    base=$(sed '2q;d' currency.json)
+    tnd=$(sed '3q;d' currency.json)
+    usd=$(sed '4q;d' currency.json)
+    btc=$(sed '5q;d' currency.json)
     # echo $base
-    # echo $timeupdate
-    # echo $base
+    
+    echo  "## Getting daily currency, This automated script is using [jq](https://stedolan.github.io/jq/)\n""## Last Update: " $now"\n ""# Monaie de base : 1" $base 💶 "\n" "# Equivaut en 🇹🇳 à : " $tnd "\n" "# Equivaut en 💵 à :" $usd"\n" "# Equivaut en 🐱‍💻 à : " $btc > README.md
+
 }
 
-# getInfo
-# getInfo > test.json
-
+getInfo > currency.json
 extract
