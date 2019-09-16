@@ -25,5 +25,12 @@ extract(){
 
 }
 
+push(){
+git add .
+git commit -m "$date"
+git push 
+}
+
 getInfo > currency.json
 extract
+push
