@@ -27,7 +27,7 @@ extract(){
 
 push(){
 git add .
-git commit -m "$date"
+git commit -m "Currency updated @ $now"
 git push 
 }
 
