@@ -36,6 +36,6 @@ push(){
 }
 
 getInfo > /home/taieb/Bureau/Bash/autobotnews/currency.json
-getTime > time.txt
+getTime > /home/taieb/Bureau/Bash/autobotnews/time.txt
 extract
 push
