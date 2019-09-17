@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 
 . /home/taieb/Bureau/Bash/autobotnews/secret
