@@ -10,7 +10,10 @@ getInfo(){
     echo $result
     
 }
-
+getTime(){
+        now=$(date '+%F à %H:%M:%S')
+    echo $now
+}
 extract(){
     now=$(date '+%F à %H:%M:%S')
 
