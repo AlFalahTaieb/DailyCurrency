@@ -11,12 +11,12 @@ getInfo(){
     
 }
 getTime(){
-        now=$(date '+%F à %H:%M:%S')
+    now=$(date '+%F à %H:%M:%S')
     echo $now
 }
 extract(){
     now=$(date '+%F à %H:%M:%S')
-
+    
     timeupdate=$(head -n 1 currency.json)
     base=$(sed '2q;d' /home/taieb/Bureau/Bash/autobotnews/currency.json)
     tnd=$(sed '3q;d' /home/taieb/Bureau/Bash/autobotnews/currency.json)
@@ -25,14 +25,14 @@ extract(){
     # echo $base
     
     echo  "## Getting daily currency, This automated script is using [jq](https://stedolan.github.io/jq/)\n""## Last Update: " $now"\n ""# Monaie de base : 1" $base 💶 "\n" "# Equivaut en 🇹🇳 à : " $tnd "\n" "# Equivaut en 💵 à :" $usd"\n" "# Equivaut en 🐱‍💻 à : " $btc > README.md
-
+    
 }
 
 push(){
-cd "/home/taieb/Bureau/Bash/autobotnews/" 
-git add .
-git commit -m "Currency updated @ $now"
-git push
+    cd "/home/taieb/Bureau/Bash/autobotnews/"
+    git add .
+    git commit -m "Currency updated @ $now"
+    git push
 }
 
 getInfo > /home/taieb/Bureau/Bash/autobotnews/currency.json
