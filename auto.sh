@@ -26,8 +26,9 @@ extract(){
 }
 
 push(){
-git add "/home/taieb/Bureau/Bash/autobotnews/" .
-git commit -m "Currency updated @ $now" "/home/taieb/Bureau/Bash/autobotnews/" 
+cd "/home/taieb/Bureau/Bash/autobotnews/" 
+git add .
+git commit -m "Currency updated @ $now"
 git push
 }
 
