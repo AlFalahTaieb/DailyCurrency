@@ -16,7 +16,7 @@ extract(){
 
     timeupdate=$(head -n 1 currency.json)
     base=$(sed '2q;d' /home/taieb/Bureau/Bash/autobotnews/currency.json)
-    tnd=$(sed '3q;d' /home/taieb/Bureau/Bash/autobotnewss/currency.json)
+    tnd=$(sed '3q;d' /home/taieb/Bureau/Bash/autobotnews/currency.json)
     usd=$(sed '4q;d' /home/taieb/Bureau/Bash/autobotnews/currency.json)
     btc=$(sed '5q;d' /home/taieb/Bureau/Bash/autobotnews/currency.json)
     # echo $base
