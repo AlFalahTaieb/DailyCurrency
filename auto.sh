@@ -1,12 +1,12 @@
 #!/bin/sh
 
 
-#. /home/taieb/Bureau/Bash/autobotnews/secret
+. /home/taieb/Bureau/Bash/autobotnews/secret
 
 
 getInfo(){
     
-    result= curl -s  "http://data.fixer.io/api/latest?access_key=6cbea7730fe0aadfab3d88cfb4b16aff&format=1/" | jq '.timestamp,.base,.rates.TND,.rates.USD,.rates.BTC'
+    result= curl -s  "http://data.fixer.io/api/latest?access_key=$APIKEY&format=1/" | jq '.timestamp,.base,.rates.TND,.rates.USD,.rates.BTC'
     echo $result
     
 }
