@@ -24,8 +24,7 @@ extract(){
     btc=$(sed '5q;d' /home/taieb/Bureau/Bash/autobotnews/currency.json)
     # echo $base
     
-    echo  "## Getting daily currency, This automated script is using [jq](https://stedolan.github.io/jq/)\n## Last Update: " $now"\n ""# Monaie de base : 1" $base 💶"\n" "# Equivaut en 🇹🇳 à : " $tnd "\n" "# Equivaut en 💵 à :" $usd"\n" "# Equivaut en 🐱‍💻 à : " $btc > /home/taieb/Bureau/Bash/autobotnews/README.md
-    
+ echo  "## Getting daily currency, This automated script is using [jq](https://stedolan.github.io/jq/)\n""## Last Update: " $now"\n ""# Monaie de base : 1" $base 💶 "\n" "# Equivaut en 🇹🇳 à : " $tnd "\n" "# Equivaut en 💵 à :" $usd"\n" "# Equivaut en 🐱‍💻 à : " $btc > /home/taieb/Bureau/Bash/autobotnews/README.md    
 }
 
 push(){
