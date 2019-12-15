@@ -2,23 +2,6 @@
 
 #
 # git-changelog.sh : generates a CHANGELOG from a GIT history
-#
-# Sources at <http://github.com/e-picas/git-changelog.git>
-# Copyright (c) 2014-2016 Pierre Cassat
-# This project is released under the terms of the MIT license;
-# see `LICENSE` for details.
-#
-# Usage:
-#
-# - with no argument, the help will be displayed
-# - with 'all', the whole changelog will be displayed
-# - with a TAG1..TAG2, the diff changelog only will be displayed
-#
-#       git-changelog.sh all
-#       git-changelog.sh hash
-#       git-changelog.sh TAG1..TAG2
-#       git-changelog.sh ... > CHANGELOG
-#
 set -e
 
 # current version
@@ -54,8 +37,7 @@ help() {
     echo
     usage
     echo
-    echo "This is free software under the terms of the MIT license."
-    echo "See <http://github.com/e-picas/git-changelog> for sources & updates."
+    echo "This is free software under the terms of the MIT license."&é
 }
 
 # repo_remote
@@ -184,7 +166,7 @@ elif [ "$ARGS" = 'init' ]; then
     REPO=$(repo_remote)
     echo "$(printf "$CHANGELOG_TITLE" "$REPO")"
     echo
-    get_history
+    get_history > /home/taieb/Bureau/Bash/autobotnews/CHANGELOG.md  
 
 else
 
