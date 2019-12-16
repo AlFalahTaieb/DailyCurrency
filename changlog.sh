@@ -44,10 +44,12 @@ git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ;
     echo
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     echo "## [$DATE]"
-    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00"
+    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00" --author-date-order | sort --key=1,10 
     NEXT=$DATE 
     
 done > CHANGELOG.md 
+    
+    
 
 }
 
