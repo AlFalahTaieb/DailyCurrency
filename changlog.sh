@@ -2,8 +2,8 @@
 # Generates changelog day by day
 
 CHANGELOG_FILE=CHANGELOG.md
-FORMAT=" %s - <code>[%h](../../commit/%h)</code> "
-
+FORMAT=" %s - $COMMITREF "
+COMMITREF="[%h](../../commit/%h)"
 if [ "$CHANGELOG_FILE"  != "" ]; then
   rm -rf $CHANGELOG_FILE
   touch $CHANGELOG_FILE
@@ -15,7 +15,7 @@ echo "CHANGELOG"
 echo ----------------------
 git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ; do
     echo
-    echo [$DATE]
+    echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     GIT_PAGER=cat git log --no-merges --format=">$FORMAT<br>" --since=$DATE --until=$NEXT 
     NEXT=$DATE 
 done > CHANGELOG.md 
