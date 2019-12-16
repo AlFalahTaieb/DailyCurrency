@@ -5,6 +5,7 @@
 > Bump version to 0.2.3. - [949d800](../../commit/949d800)  <br>
 > Currency updated @ 2019-12-16 à 10:38:44 - [b0f1c3e](../../commit/b0f1c3e)  <br>
 > 🐛 Fix rendering - [df56bfd](../../commit/df56bfd)  <br>
+> 🐛 Fix : Script by adding sort - [d149ab7](../../commit/d149ab7)  <br>
 > 👌 IMPROVE: Add ChangeLog Script - [934a11d](../../commit/934a11d)  <br>
 > 👌 IMPROVE: Give choice to the user - [59bc522](../../commit/59bc522)  <br>
 > 👌 IMPROVE: Improve CHANGELOG Script - [868ba1c](../../commit/868ba1c)  <br>
