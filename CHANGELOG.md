@@ -5,6 +5,7 @@
 > Bump version to 0.2.3. - [949d800](../../commit/949d800)  <br>
 > Currency updated @ 2019-12-16 à 10:38:44 - [b0f1c3e](../../commit/b0f1c3e)  <br>
 > 🐛 Fix rendering - [df56bfd](../../commit/df56bfd)  <br>
+> 🐛 Fix : Script by adding sort - [674131f](../../commit/674131f)  <br>
 > 🐛 Fix : Script by adding sort - [d149ab7](../../commit/d149ab7)  <br>
 > 👌 IMPROVE: Add ChangeLog Script - [934a11d](../../commit/934a11d)  <br>
 > 👌 IMPROVE: Give choice to the user - [59bc522](../../commit/59bc522)  <br>
@@ -14,6 +15,7 @@
 > 📦 NEW: Create Script - [3534f4e](../../commit/3534f4e)  <br>
 > 📦 NEW : NEW VERSION - [36272a6](../../commit/36272a6)  <br>
 > 🚀 RELEASE: FIRST Test - [e431b10](../../commit/e431b10)  <br>
+> ✅ TEST : Test Ignore - [a36ad17](../../commit/a36ad17)  <br>
 > ✅ TEST : Testing - [e234bcf](../../commit/e234bcf)  <br>
 > 🐛 Try H3 - [ebe0158](../../commit/ebe0158)  <br>
 
