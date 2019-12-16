@@ -1,10 +1,8 @@
-## 0.2.2 (décembre 16, 2019)
-
-
 
 ## [2019-12-16]
 
 ## [2019-12-15]
+> Bump version to 0.2.2. - [f1f9afd](../../commit/f1f9afd)  <br>
 > 📦 NEW : NEW VERSION - [36272a6](../../commit/36272a6)  <br>
 > Bump version to 0.2.3. - [949d800](../../commit/949d800)  <br>
 > Add VERSION and CHANGELOG.md files, Bump version to v0.1.0. - [1f1617f](../../commit/1f1617f)  <br>
