@@ -16,24 +16,9 @@ echo ----------------------
 git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ; do
     echo
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
-    echo "<h3> $DATE </h3> "
+    echo "## [$DATE]"
     GIT_PAGER=cat git log --no-merges --format=">$FORMAT<br>" --since=$DATE --until=$NEXT 
     NEXT=$DATE 
+    
 done > CHANGELOG.md 
-#
-#git for-each-ref --sort='*authordate' --format='%(tag)' refs/tags  |grep -v '^$' | while read TAG ; do
- #   TAG_DATE=$(git log -1 --pretty=tformat:%cd --date=short $TAG)
- #   if [ $NEXT ];then
- #       TAG_DATE=$(git log -1 --pretty=tformat:%cd --date=short $NEXT)
- #       echo "\n\n#### $NEXT / $TAG_DATE" >> $CHANGELOG_FILE
- #   else
- #       echo "#### [Current] / $TAG_DATE" >> $CHANGELOG_FILE
- #   fi
- #   GIT_PAGER=cat git log --pretty=format:"$FORMAT" $TAG..$NEXT >> $CHANGELOG_FILE
- #   NEXT=$TAG
-#done
 
-#FIRST=$(git tag -l | head -1)
-#TAG_DATE=$(git log -1 --pretty=tformat:%cd --date=short $FIRST)
-#echo "## $FIRST / $TAG_DATE" >> $CHANGELOG_FILE
-#GIT_PAGER=cat git log --pretty=format:"$FORMAT" $FIRST >> $CHANGELOG_FILE
