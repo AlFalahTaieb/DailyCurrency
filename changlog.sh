@@ -44,10 +44,11 @@ git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ;
     echo
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     echo "## [$DATE]"
-    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since=$DATE --until=$NEXT 
+    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00"
     NEXT=$DATE 
     
 done > CHANGELOG.md 
+
 }
 
 
@@ -56,5 +57,16 @@ if [ "$CHANGELOG_FILE"  != "" ]; then
   touch $CHANGELOG_FILE
 fi
 
-getVersion
-deploy
+echo "### Select the Operation you want to perform ###"
+echo "  1)Versioning & Deploy "
+echo "  2)Deploy"
+
+read n
+case $n in
+  1) getVersion; deploy;;
+  2) deploy;;
+esac
+
+
+#getVersion
+#deploy
