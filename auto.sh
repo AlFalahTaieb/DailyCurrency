@@ -53,14 +53,16 @@ extract(){
 }
 
 push(){
+    changeEmojiDependingtohour
+    echo $emojitoUse
     cd "/home/taieb/Bureau/Bash/autobotnews/"
     git add .
     git commit -m "$emojitoUse Currency updated @ $now"
     git push
 }
 
-changeEmojiDependingtohour
-echo $emojitoUse
+
+
 getInfo > /home/taieb/Bureau/Bash/autobotnews/currency.json
 # getTime > /home/taieb/Bureau/Bash/autobotnews/time.txt
 extract
