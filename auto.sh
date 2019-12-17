@@ -11,18 +11,18 @@ changeEmojiDependingtohour(){
     if [ $(date +%H) -lt "$a" ]
     then
         emojitoUse = '📦 NEW: '
-         $emojitoUse
+         echo $emojitoUse
     elif [ $(date +%H) -lt "$b" ]
     then
         emojitoUse = '🐛 Fix: '
-         $emojitoUse
+         echo $emojitoUse
     elif [ $(date +%H) -lt "$c" ]
     then
         emojitoUse -lt '🚀 RELEASE: '
-         $emojitoUse
+         echo $emojitoUse
     elif [ $(date +%H) -lt "$d" ]
     then emojitoUse= '✅ TEST : '
-        $emojitoUse
+        echo $emojitoUse
     fi
 
     }
@@ -53,10 +53,10 @@ extract(){
 }
 
 push(){
-    emojitoUse=changeEmojiDependingtohour
+    
     cd "/home/taieb/Bureau/Bash/autobotnews/"
     git add .
-    git commit -m "$emojitoUse Currency updated @ $now"
+    git commit -m "$(changeEmojiDependingtohour) Currency updated @ $now"
     git push
 }
 
