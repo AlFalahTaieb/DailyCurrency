@@ -44,7 +44,7 @@ git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ;
     echo
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     echo "## [$DATE]"
-    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00"  | sort --sort=general-numeric
+    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00"  
     NEXT=$DATE 
     
 done > CHANGELOG.md 
