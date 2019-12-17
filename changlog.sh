@@ -39,17 +39,18 @@ COMMITREF="[%h](../../commit/%h)"
 echo "# CHANGELOG" >> $CHANGELOG_FILE
 NEXT=$(date +%F)
 echo "CHANGELOG"
+echo "$DATE"
 echo ----------------------
 git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ; do
     echo
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     echo "## [$DATE]"
-    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00"  
+    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00"  | sed -n -e '/📦/{p;n;}' -e '/🐛/{p;n;}' -e '/🚀/{p;n;}' -e '/📦/{p;n;}' -e '/✅/{p;n;}' |  sort -g 
     NEXT=$DATE 
-    
-done > CHANGELOG.md 
-    
-    
+
+#done >  CHANGELOG.md 
+done > temp.md   
+#cat diff temp.md CHANGELOG.md
 
 }
 
