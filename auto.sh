@@ -1,4 +1,4 @@
-+#!/bin/sh
+#!/bin/sh
 
 
 . /home/taieb/Bureau/Bash/autobotnews/secret
@@ -7,22 +7,22 @@ changeEmojiDependingtohour(){
     b=10
     c=15
     d=20
-    emojitoUse=''
-    if [ $(date +%H) -lt "$a" ]
+    messageEmoji=""
+    if [ $(date +%H) -le "$a" ]
     then
-        emojitoUse = '📦 NEW: '
-         echo $emojitoUse
-    elif [ $(date +%H) -lt "$b" ]
+        messageEmoji = '📦 NEW: '
+         echo $messageEmoji
+    elif [ $(date +%H) -le "$b" ]
     then
-        emojitoUse = '🐛 Fix: '
-         echo $emojitoUse
-    elif [ $(date +%H) -lt "$c" ]
+        echo '🐛 Fix: '
+         echo $messageEmoji
+    elif [ $(date +%H) -le "$c" ]
     then
-        emojitoUse -lt '🚀 RELEASE: '
-         echo $emojitoUse
-    elif [ $(date +%H) -lt "$d" ]
-    then emojitoUse= '✅ TEST : '
-        echo $emojitoUse
+        messageEmoji -le '🚀 RELEASE: '
+         echo $messageEmoji
+    elif [ $(date +%H) -le "$d" ]
+    then messageEmoji= '✅ TEST : '
+        echo $messageEmoji
     fi
 
     }
