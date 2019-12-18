@@ -1,7 +1,32 @@
-#!/bin/sh
++#!/bin/sh
 
 
 . /home/taieb/Bureau/Bash/autobotnews/secret
+changeEmojiDependingtohour(){
+    a=5
+    b=10
+    c=15
+    d=20
+    emojitoUse=''
+    if [ $(date +%H) -lt "$a" ]
+    then
+        emojitoUse = '📦 NEW: '
+         echo $emojitoUse
+    elif [ $(date +%H) -lt "$b" ]
+    then
+        emojitoUse = '🐛 Fix: '
+         echo $emojitoUse
+    elif [ $(date +%H) -lt "$c" ]
+    then
+        emojitoUse -lt '🚀 RELEASE: '
+         echo $emojitoUse
+    elif [ $(date +%H) -lt "$d" ]
+    then emojitoUse= '✅ TEST : '
+        echo $emojitoUse
+    fi
+
+    }
+
 
 
 getInfo(){
@@ -28,11 +53,14 @@ extract(){
 }
 
 push(){
+    
     cd "/home/taieb/Bureau/Bash/autobotnews/"
     git add .
-    git commit -m "Currency updated @ $now"
+    git commit -m $(changeEmojiDependingtohour) "Currency updated @ $now"
     git push
 }
+
+
 
 getInfo > /home/taieb/Bureau/Bash/autobotnews/currency.json
 # getTime > /home/taieb/Bureau/Bash/autobotnews/time.txt

@@ -1,195 +1,75 @@
-#!/bin/sh
+#!/bin/bash
+# Generates changelog day by day
 
-#
-# git-changelog.sh : generates a CHANGELOG from a GIT history
-set -e
 
-# current version
-declare SCRIPT_VERSION='0.1.0'
-declare DEV_DEBUG=false
-
-# variables
-declare MESSAGE_IGNORE='#no-changelog'
-declare CHANGELOG_TITLE='# CHANGELOG for remote repository %s'
-declare HEAD_HEADER='* (upcoming release)'
-declare TAG_HEADER='* %(tag) (%(taggerdate:short) - %%s)'
-declare COMMIT_LOG='    * %h - %s (%cN)'
-
-usage () {
-    cat <<MESSAGE
-usage:          $0 <arg>
-with <arg> in:
-                'all'        : get the full repository changelog
-                'tag1..tag2' : get a changelog between tag1 and tag2 (tag1 < tag2)
-                'hash'       : get a single commit changelog message
-                'init'       : get the full repository initial changelog (when no tag is available yet)
-MESSAGE
+RED="\033[1;31m"
+GREEN="\033[0;32m"
+YELLOW="\033[1;33m"
+BLUE="\033[1;34m"
+PURPLE="\033[1;35m"
+CYAN="\033[1;36m"
+WHITE="\033[1;37m"
+RESET="\033[0m"
+getVersion(){
+        BASE_STRING=`cat VERSION`
+    BASE_LIST=(`echo $BASE_STRING | tr '.' ' '`)
+    V_MAJOR=${BASE_LIST[0]}
+    V_MINOR=${BASE_LIST[1]}
+    V_PATCH=${BASE_LIST[2]}
+    echo -e "${NOTICE_FLAG} Current version: ${WHITE}$BASE_STRING"
+    echo -e "${NOTICE_FLAG} Latest commit hash: ${WHITE}$LATEST_HASH"
+    V_MINOR=$((V_MINOR + 1))
+    V_PATCH=0
+    SUGGESTED_VERSION="$V_MAJOR.$V_MINOR.$V_PATCH"
+    echo -ne "${QUESTION_FLAG} ${CYAN}Enter a version number [${WHITE}$SUGGESTED_VERSION${CYAN}]: "
+    read INPUT_STRING
+    if [ "$INPUT_STRING" = "" ]; then
+        INPUT_STRING=$SUGGESTED_VERSION
+    fi
+    echo -e "${NOTICE_FLAG} Will set new version to be ${WHITE}$INPUT_STRING"
+    echo $INPUT_STRING > VERSION
 }
 
-# version string
-version() {
-    echo "GIT-changelog $SCRIPT_VERSION"
-}
 
-# help string
-help() {
-    version
+CHANGELOG_FILE=CHANGELOG.md
+
+deploy(){
+FORMAT=" %s - $COMMITREF "
+COMMITREF="[%h](../../commit/%h)"
+echo "# CHANGELOG" >> $CHANGELOG_FILE
+NEXT=$(date +%F)
+echo "CHANGELOG"
+echo "$DATE"
+echo ----------------------
+git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ; do
     echo
-    usage
-    echo
-    echo "This is free software under the terms of the MIT license."&é
+    #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
+    echo "## [$DATE]"
+    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00"  | sed -n -e '/📦/{p;n;}' -e '/🐛/{p;n;}' -e '/🚀/{p;n;}' -e '/📦/{p;n;}' -e '/✅/{p;n;}' |  sort -g 
+    NEXT=$DATE 
+
+#done >  CHANGELOG.md 
+done > temp.md   
+#cat diff temp.md CHANGELOG.md
+
 }
 
-# repo_remote
-repo_remote () {
-    echo "$(git remote show -n origin | grep 'Fetch' | cut -d':' -f 2-)"
-}
 
-# tag_title TAG_REF
-tag_title () {
-    local TAGREF=$(tag_header "${1}")
-    local tmp=$(git --no-pager for-each-ref --sort='-taggerdate' --format="$TAG_HEADER" 'refs/tags' | grep " ${1} ")
-    printf "$tmp" "$TAGREF"
-}
-
-# tag_header TAG_REF
-tag_header () {
-    git --no-pager show-ref --hash --abbrev "${1}"
-}
-
-# tag_history TAG1 TAG2
-tag_history () {
-    if [ $# -eq 2 ]; then
-        if [ -n "$MESSAGE_IGNORE" ]; then
-            git --no-pager log --oneline --first-parent --no-merges --decorate --pretty=tformat:"$COMMIT_LOG" "${1}..${2}" | grep -v "$MESSAGE_IGNORE"
-        else
-            git --no-pager log --oneline --first-parent --no-merges --decorate --pretty=tformat:"$COMMIT_LOG" "${1}..${2}"
-        fi
-    elif [ $# -eq 1 ]; then
-        if [ -n "$MESSAGE_IGNORE" ]; then
-            git --no-pager log --oneline --first-parent --no-merges --decorate --pretty=tformat:"$COMMIT_LOG" "${1}" | grep -v "$MESSAGE_IGNORE"
-        else
-            git --no-pager log --oneline --first-parent --no-merges --decorate --pretty=tformat:"$COMMIT_LOG" "${1}"
-        fi
-    fi
-}
-
-# commit_history HASH
-commit_history () {
-    if [ -n "$MESSAGE_IGNORE" ]; then
-        git --no-pager log --oneline --first-parent --no-merges --decorate --pretty=tformat:"$COMMIT_LOG" -1 "${1}" | grep -v "$MESSAGE_IGNORE"
-    else
-        git --no-pager log --oneline --first-parent --no-merges --decorate --pretty=tformat:"$COMMIT_LOG" -1 "${1}"
-    fi
-}
-
-# get_history
-get_history () {
-    if [ -n "$MESSAGE_IGNORE" ]; then
-        git --no-pager log --oneline --all --decorate --pretty=tformat:"$COMMIT_LOG" | grep -v "$MESSAGE_IGNORE"
-    else
-        git --no-pager log --oneline --all --decorate --pretty=tformat:"$COMMIT_LOG"
-    fi
-}
-
-# get_changelog TAG1 TAG2
-get_changelog () {
-    if [ $# -eq 2 ]; then
-        local TAG1="${1}"
-        local TAG2="${2}"
-    elif [ $# -eq 1 ]; then
-        local TAG2="${1}"
-        local TAG1=''
-    else
-        return 1
-    fi
-    if [ "$TAG2" = 'HEAD' ]; then
-        echo "$HEAD_HEADER"
-    else
-        echo "$(tag_title "$TAG2")"
-    fi
-    echo
-    if [ -n "$TAG1" ]; then
-        tag_history "$TAG1" "$TAG2"
-    else
-        tag_history "$TAG2"
-    fi
-    echo
-}
-
-# no argument
-if [ $# -eq 0 ]; then
-    usage >&2
-    exit 1
+if [ "$CHANGELOG_FILE"  != "" ]; then
+  rm -rf $CHANGELOG_FILE
+  touch $CHANGELOG_FILE
 fi
 
-# -h / --help
-if [[ "$1" =~ ^--?h(elp)?$ ]]; then
-    help
-    exit 0
-fi
+echo "### Select the Operation you want to perform ###"
+echo "  1)Versioning & Deploy "
+echo "  2)Deploy"
 
-# -V / --version
-if [ "$1" = '-V' ]||[ "$1" = '--version' ]; then
-    version
-    exit 0
-fi
+read n
+case $n in
+  1) getVersion; deploy;;
+  2) deploy;;
+esac
 
-ARGS="${*}"
 
-# get the whole repo history
-if [ "$ARGS" = 'full' ]||[ "$ARGS" = 'all' ]; then
-    REPO=$(repo_remote)
-    echo "$(printf "$CHANGELOG_TITLE" "$REPO")"
-    echo
-    TAG1=''
-    TAG2='HEAD'
-    all_tags="$(git for-each-ref --sort='-taggerdate' --format='%(refname)' 'refs/tags')"
-    COUNTER=1
-    TAGSCOUNTER=$(echo "$all_tags" | wc -l )
-    echo "$all_tags" | while read tag; do
-        TAG1="${tag//refs\/tags\//}"
-        if [ -n "$TAG2" ]; then
-            get_changelog "$TAG1" "$TAG2"
-        else
-            get_changelog "$TAG1"
-        fi
-        TAG2="${tag//refs\/tags\//}"
-        COUNTER=$((COUNTER+1))
-        if [ "$COUNTER" -eq $((TAGSCOUNTER+1)) ]; then
-            get_changelog "$TAG2"
-        fi
-    done
-
-# get initial changelog
-elif [ "$ARGS" = 'init' ]; then
-    REPO=$(repo_remote)
-    echo "$(printf "$CHANGELOG_TITLE" "$REPO")"
-    echo
-    get_history > /home/taieb/Bureau/Bash/autobotnews/CHANGELOG.md  
-
-else
-
-    tag=$(echo "$ARGS" | grep '\.\.')
-    # get the history between two tags
-    if [ -n "$tag" ]; then
-        tmpargs=$(echo "$ARGS" | sed -e 's/\.\./;/g')
-        TAG1=$(echo "$tmpargs" | cut -d';' -f 1)
-        TAG2=$(echo "$tmpargs" | cut -d';' -f 2)
-        get_changelog "$TAG1" "$TAG2"
-
-    else
-
-        commit=$(git branch -a --contains="$ARGS" &>/dev/null; echo $?)
-        # get the history of a single commit
-        if [ "$commit" = 0 ]; then
-            commit_history "$ARGS"
-
-        else
-            # else error, args not understood
-            usage
-            exit 1
-        fi
-    fi
-fi
-
+#getVersion
+#deploy
