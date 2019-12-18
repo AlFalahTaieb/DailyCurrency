@@ -1,33 +1,9 @@
-#cat temp.md | awk '$2!=prev{print (prev=$2 ":") }  {print $s}' | sort -g   > test.md
+#!/bin/sh
 
-changeEmojiDependingtohour(){
-    a=5
-    b=10
-    c=15
-    d=20
-    emojitoUse=''
+cat CHANGELOG.md | awk  '
+prev!=$1  { prev=$1 ; printf "%s%s <br>", NR==$1? "" : ORS, $1 $2 $3, ORS }
+prev==$1 { for (i=2;i<=NF; i++){ printf "%s%s", $i, i==NF ? ORS : OFS} }
+'  > final.md
 
 
-
-    if [ $(date +%H) -lt "$a" ]
-    then
-        emojitoUse = '📦 NEW: '
-         $emojitoUse
-    elif [ $(date +%H) -lt "$b" ]
-    then
-        emojitoUse = '🐛 Fix: '
-         $emojitoUse
-    elif [ $(date +%H) -lt "$c" ]
-    then
-        emojitoUse -lt '🚀 RELEASE: '
-         $emojitoUse
-    elif [ $(date +%H) -lt "$d" ]
-    then emojitoUse= '✅ TEST : '
-        $emojitoUse
-    fi
-
-    }
-
-    changeEmojiDependingtohour
-
-    echo $emojitoUse
+#str = '📦 NEW:  Updating message depending of hour'

@@ -1,9 +1,9 @@
 
-## [2019-12-18]
+##[2019-12-18] <br>[2019-12-18]
 
-📦NEW: <br>NEW: Updating message depending of hour - [337b3a2](../../commit/337b3a2) <br>
+📦NEW:Updating <br>NEW: Updating message depending of hour - [337b3a2](../../commit/337b3a2) <br>
 
-Currencyupdated <br>updated @ 2019-12-18 à 08:00:01 - [df22e0d](../../commit/df22e0d) <br>
+Currencyupdated@ <br>updated @ 2019-12-18 à 08:00:01 - [df22e0d](../../commit/df22e0d) <br>
 updated @ 2019-12-18 à 06:00:02 - [e77418e](../../commit/e77418e) <br>
 updated @ 2019-12-18 à 05:00:02 - [78078c0](../../commit/78078c0) <br>
 updated @ 2019-12-18 à 04:00:01 - [f7d784b](../../commit/f7d784b) <br>
@@ -12,13 +12,14 @@ updated @ 2019-12-18 à 02:00:02 - [cdad4a3](../../commit/cdad4a3) <br>
 updated @ 2019-12-18 à 01:00:02 - [7f7aec5](../../commit/7f7aec5) <br>
 updated @ 2019-12-18 à 00:00:02 - [c893f97](../../commit/c893f97) <br>
 
-:book:IMPROVE:Improve <br>Improve Convention.md - [a5dfb78](../../commit/a5dfb78) <br>
+:book:IMPROVE:ImproveConvention.md <br>Improve Convention.md - [a5dfb78](../../commit/a5dfb78) <br>
 
-## [2019-12-17]
+ <br>
+##[2019-12-17] <br>[2019-12-17]
 
-🚀RELEASE: <br>RELEASE: Change on the script - [af1f5ed](../../commit/af1f5ed) <br>
+🚀RELEASE:Change <br>RELEASE: Change on the script - [af1f5ed](../../commit/af1f5ed) <br>
 
-Currencyupdated <br>updated @ 2019-12-17 à 17:57:27 - [afd6880](../../commit/afd6880) <br>
+Currencyupdated@ <br>updated @ 2019-12-17 à 17:57:27 - [afd6880](../../commit/afd6880) <br>
 updated @ 2019-12-17 à 17:57:01 - [8a0bba5](../../commit/8a0bba5) <br>
 updated @ 2019-12-17 à 17:53:06 - [75f17f4](../../commit/75f17f4) <br>
 updated @ 2019-12-17 à 17:51:52 - [8282fc0](../../commit/8282fc0) <br>
@@ -31,46 +32,48 @@ updated @ 2019-12-17 à 02:00:02 - [b15f1e5](../../commit/b15f1e5) <br>
 updated @ 2019-12-17 à 01:00:01 - [287d022](../../commit/287d022) <br>
 updated @ 2019-12-17 à 00:00:01 - [a30237c](../../commit/a30237c) <br>
 
-changeEmojiDependingtohourCurrency <br>Currency updated @ 2019-12-17 à 17:54:59 - [c117fdf](../../commit/c117fdf) <br>
+changeEmojiDependingtohourCurrencyupdated <br>Currency updated @ 2019-12-17 à 17:54:59 - [c117fdf](../../commit/c117fdf) <br>
 
-## [2019-12-16]
+ <br>
+##[2019-12-16] <br>[2019-12-16]
 
-🐛Try <br>Try H3 - [ebe0158](../../commit/ebe0158) <br>
+🐛Fix: <br>Fix : Try h3 - [ebe0158](../../commit/ebe0158) <br>
 
-✅TEST <br>TEST : Testing - [e234bcf](../../commit/e234bcf) <br>
+✅TEST: <br>TEST : Testing - [e234bcf](../../commit/e234bcf) <br>
 TEST : Test Ignore - [a36ad17](../../commit/a36ad17) <br>
 
-🚀RELEASE: <br>RELEASE: FIRST Test - [e431b10](../../commit/e431b10) <br>
+🚀RELEASE:FIRST <br>RELEASE: FIRST Test - [e431b10](../../commit/e431b10) <br>
 
-📦NEW <br>NEW : NEW VERSION - [36272a6](../../commit/36272a6) <br>
+📦NEW: <br>NEW : NEW VERSION - [36272a6](../../commit/36272a6) <br>
 NEW: Create Script - [3534f4e](../../commit/3534f4e) <br>
 NEW: CODE - [a3afeab](../../commit/a3afeab) <br>
 NEW: Change script - [cf61b98](../../commit/cf61b98) <br>
 
-👌IMPROVE: <br>IMPROVE: Improve Script - [2c66e06](../../commit/2c66e06) <br>
+👌IMPROVE:Improve <br>IMPROVE: Improve Script - [2c66e06](../../commit/2c66e06) <br>
 IMPROVE: Improve CHANGELOG Script - [868ba1c](../../commit/868ba1c) <br>
 IMPROVE: Give choice to the user - [59bc522](../../commit/59bc522) <br>
 IMPROVE: Add ChangeLog Script - [934a11d](../../commit/934a11d) <br>
 
-🐛Fix <br>Fix : Script by adding sort - [d149ab7](../../commit/d149ab7) <br>
+🐛Fix: <br>Fix : Script by adding sort - [d149ab7](../../commit/d149ab7) <br>
 Fix : Script by adding sort - [674131f](../../commit/674131f) <br>
-Fix rendering - [df56bfd](../../commit/df56bfd) <br>
+Fix : rendering - [df56bfd](../../commit/df56bfd) <br>
 Fix : Merge Problem - [3597368](../../commit/3597368) <br>
 
-Currencyupdated <br>updated @ 2019-12-16 à 23:00:01 - [4f59f5f](../../commit/4f59f5f) <br>
+Currencyupdated@ <br>updated @ 2019-12-16 à 23:00:01 - [4f59f5f](../../commit/4f59f5f) <br>
 updated @ 2019-12-16 à 22:00:01 - [311c1f6](../../commit/311c1f6) <br>
 updated @ 2019-12-16 à 21:00:01 - [78f2b08](../../commit/78f2b08) <br>
 updated @ 2019-12-16 à 20:00:01 - [ad3fc19](../../commit/ad3fc19) <br>
 updated @ 2019-12-16 à 10:38:44 - [b0f1c3e](../../commit/b0f1c3e) <br>
 
-Bumpversion <br>version to 0.2.3. - [949d800](../../commit/949d800) <br>
+Bumpversionto <br>version to 0.2.3. - [949d800](../../commit/949d800) <br>
 version to 0.2.2. - [f1f9afd](../../commit/f1f9afd) <br>
 
-AddVERSION <br>VERSION and CHANGELOG.md files, Bump version to v0.1.0. - [1f1617f](../../commit/1f1617f) <br>
+AddVERSIONand <br>VERSION and CHANGELOG.md files, Bump version to v0.1.0. - [1f1617f](../../commit/1f1617f) <br>
 
-## [2019-12-15]
+ <br>
+##[2019-12-15] <br>[2019-12-15]
 
-Currencyupdated <br>updated @ 2019-12-15 à 23:00:01 - [ef35cde](../../commit/ef35cde) <br>
+Currencyupdated@ <br>updated @ 2019-12-15 à 23:00:01 - [ef35cde](../../commit/ef35cde) <br>
 updated @ 2019-12-15 à 22:00:02 - [87a1ca1](../../commit/87a1ca1) <br>
 updated @ 2019-12-15 à 21:00:03 - [8221b03](../../commit/8221b03) <br>
 updated @ 2019-12-15 à 20:00:01 - [c972be1](../../commit/c972be1) <br>
@@ -88,16 +91,18 @@ updated @ 2019-12-15 à 09:00:02 - [d36f9d4](../../commit/d36f9d4) <br>
 updated @ 2019-12-15 à 08:00:01 - [0656de3](../../commit/0656de3) <br>
 updated @ 2019-12-15 à 00:00:01 - [e57dcee](../../commit/e57dcee) <br>
 
-## [2019-12-14]
+ <br>
+##[2019-12-14] <br>[2019-12-14]
 
-Currencyupdated <br>updated @ 2019-12-14 à 23:00:01 - [b8d5a5c](../../commit/b8d5a5c) <br>
+Currencyupdated@ <br>updated @ 2019-12-14 à 23:00:01 - [b8d5a5c](../../commit/b8d5a5c) <br>
 updated @ 2019-12-14 à 22:00:02 - [06bd592](../../commit/06bd592) <br>
 updated @ 2019-12-14 à 09:00:01 - [8a1ad60](../../commit/8a1ad60) <br>
 updated @ 2019-12-14 à 08:00:01 - [16db482](../../commit/16db482) <br>
 
-## [2019-12-13]
+ <br>
+##[2019-12-13] <br>[2019-12-13]
 
-Currencyupdated <br>updated @ 2019-12-13 à 23:00:01 - [69bcbe6](../../commit/69bcbe6) <br>
+Currencyupdated@ <br>updated @ 2019-12-13 à 23:00:01 - [69bcbe6](../../commit/69bcbe6) <br>
 updated @ 2019-12-13 à 22:00:02 - [b792657](../../commit/b792657) <br>
 updated @ 2019-12-13 à 21:00:02 - [a8bab2a](../../commit/a8bab2a) <br>
 updated @ 2019-12-13 à 20:00:02 - [49071cf](../../commit/49071cf) <br>
@@ -105,11 +110,12 @@ updated @ 2019-12-13 à 08:00:01 - [f7cc1de](../../commit/f7cc1de) <br>
 updated @ 2019-12-13 à 07:00:01 - [2617bd2](../../commit/2617bd2) <br>
 updated @ 2019-12-13 à 06:00:02 - [07ca85d](../../commit/07ca85d) <br>
 
-## [2019-12-12]
+ <br>
+##[2019-12-12] <br>[2019-12-12]
 
-updatepipelien <br>pipelien - [05952cb](../../commit/05952cb) <br>
+updatepipelien- <br>pipelien - [05952cb](../../commit/05952cb) <br>
 
-Currencyupdated <br>updated @ 2019-12-12 à 23:00:02 - [a5fe001](../../commit/a5fe001) <br>
+Currencyupdated@ <br>updated @ 2019-12-12 à 23:00:02 - [a5fe001](../../commit/a5fe001) <br>
 updated @ 2019-12-12 à 22:00:01 - [27944f6](../../commit/27944f6) <br>
 updated @ 2019-12-12 à 16:00:01 - [56c4bed](../../commit/56c4bed) <br>
 updated @ 2019-12-12 à 15:00:02 - [ae7e342](../../commit/ae7e342) <br>
@@ -121,11 +127,12 @@ updated @ 2019-12-12 à 10:00:02 - [e116a8c](../../commit/e116a8c) <br>
 updated @ 2019-12-12 à 08:00:02 - [55cdcf3](../../commit/55cdcf3) <br>
 updated @ 2019-12-12 à 07:00:02 - [7a04b62](../../commit/7a04b62) <br>
 
-## [2019-12-11]
+ <br>
+##[2019-12-11] <br>[2019-12-11]
 
-updateadd <br>add jenkins file - [715d137](../../commit/715d137) <br>
+updateaddjenkins <br>add jenkins file - [715d137](../../commit/715d137) <br>
 
-Currencyupdated <br>updated @ 2019-12-11 à 23:00:02 - [e7b78b6](../../commit/e7b78b6) <br>
+Currencyupdated@ <br>updated @ 2019-12-11 à 23:00:02 - [e7b78b6](../../commit/e7b78b6) <br>
 updated @ 2019-12-11 à 22:00:01 - [6835728](../../commit/6835728) <br>
 updated @ 2019-12-11 à 18:00:02 - [bdd9ad8](../../commit/bdd9ad8) <br>
 updated @ 2019-12-11 à 17:00:02 - [2a8bb4d](../../commit/2a8bb4d) <br>
@@ -137,9 +144,10 @@ updated @ 2019-12-11 à 12:00:02 - [e55bc34](../../commit/e55bc34) <br>
 updated @ 2019-12-11 à 11:00:02 - [aa9749f](../../commit/aa9749f) <br>
 updated @ 2019-12-11 à 10:00:02 - [4b6f98a](../../commit/4b6f98a) <br>
 
-## [2019-12-10]
+ <br>
+##[2019-12-10] <br>[2019-12-10]
 
-Currencyupdated <br>updated @ 2019-12-10 à 18:00:02 - [510fe9e](../../commit/510fe9e) <br>
+Currencyupdated@ <br>updated @ 2019-12-10 à 18:00:02 - [510fe9e](../../commit/510fe9e) <br>
 updated @ 2019-12-10 à 17:00:01 - [8bcefe1](../../commit/8bcefe1) <br>
 updated @ 2019-12-10 à 16:00:02 - [c4d9495](../../commit/c4d9495) <br>
 updated @ 2019-12-10 à 15:00:02 - [08e0521](../../commit/08e0521) <br>
@@ -147,15 +155,17 @@ updated @ 2019-12-10 à 14:00:01 - [fe31cd9](../../commit/fe31cd9) <br>
 updated @ 2019-12-10 à 13:00:02 - [29cd8c4](../../commit/29cd8c4) <br>
 updated @ 2019-12-10 à 12:00:08 - [962243a](../../commit/962243a) <br>
 
-## [2019-12-09]
+ <br>
+##[2019-12-09] <br>[2019-12-09]
 
-Currencyupdated <br>updated @ 2019-12-09 à 23:00:07 - [994dbb6](../../commit/994dbb6) <br>
+Currencyupdated@ <br>updated @ 2019-12-09 à 23:00:07 - [994dbb6](../../commit/994dbb6) <br>
 updated @ 2019-12-09 à 18:00:02 - [3b81748](../../commit/3b81748) <br>
 updated @ 2019-12-09 à 17:00:01 - [fa77168](../../commit/fa77168) <br>
 
-## [2019-12-08]
+ <br>
+##[2019-12-08] <br>[2019-12-08]
 
-Currencyupdated <br>updated @ 2019-12-08 à 08:00:02 - [9f92103](../../commit/9f92103) <br>
+Currencyupdated@ <br>updated @ 2019-12-08 à 08:00:02 - [9f92103](../../commit/9f92103) <br>
 updated @ 2019-12-08 à 07:00:02 - [08b00ab](../../commit/08b00ab) <br>
 updated @ 2019-12-08 à 06:00:02 - [7ad2136](../../commit/7ad2136) <br>
 updated @ 2019-12-08 à 05:00:02 - [8b90418](../../commit/8b90418) <br>
@@ -165,9 +175,10 @@ updated @ 2019-12-08 à 02:00:02 - [f9d7d74](../../commit/f9d7d74) <br>
 updated @ 2019-12-08 à 01:00:01 - [b0241fd](../../commit/b0241fd) <br>
 updated @ 2019-12-08 à 00:00:02 - [f6acafc](../../commit/f6acafc) <br>
 
-## [2019-12-07]
+ <br>
+##[2019-12-07] <br>[2019-12-07]
 
-Currencyupdated <br>updated @ 2019-12-07 à 23:00:02 - [a6bda78](../../commit/a6bda78) <br>
+Currencyupdated@ <br>updated @ 2019-12-07 à 23:00:02 - [a6bda78](../../commit/a6bda78) <br>
 updated @ 2019-12-07 à 22:00:02 - [f616230](../../commit/f616230) <br>
 updated @ 2019-12-07 à 21:00:02 - [85e23fa](../../commit/85e23fa) <br>
 updated @ 2019-12-07 à 20:00:01 - [d63545e](../../commit/d63545e) <br>
@@ -175,50 +186,56 @@ updated @ 2019-12-07 à 10:00:02 - [4dcfeb8](../../commit/4dcfeb8) <br>
 updated @ 2019-12-07 à 09:00:02 - [f1bf58d](../../commit/f1bf58d) <br>
 updated @ 2019-12-07 à 00:00:01 - [debec18](../../commit/debec18) <br>
 
-## [2019-12-06]
+ <br>
+##[2019-12-06] <br>[2019-12-06]
 
-Currencyupdated <br>updated @ 2019-12-06 à 23:00:02 - [d7586f2](../../commit/d7586f2) <br>
+Currencyupdated@ <br>updated @ 2019-12-06 à 23:00:02 - [d7586f2](../../commit/d7586f2) <br>
 updated @ 2019-12-06 à 22:00:02 - [ba7acb0](../../commit/ba7acb0) <br>
 updated @ 2019-12-06 à 08:00:02 - [be2cb36](../../commit/be2cb36) <br>
 
-## [2019-12-05]
+ <br>
+##[2019-12-05] <br>[2019-12-05]
 
-Currencyupdated <br>updated @ 2019-12-05 à 23:00:01 - [b72e87e](../../commit/b72e87e) <br>
+Currencyupdated@ <br>updated @ 2019-12-05 à 23:00:01 - [b72e87e](../../commit/b72e87e) <br>
 updated @ 2019-12-05 à 22:00:01 - [0cb8b8a](../../commit/0cb8b8a) <br>
 updated @ 2019-12-05 à 21:00:02 - [9df6627](../../commit/9df6627) <br>
 updated @ 2019-12-05 à 20:00:01 - [e68a765](../../commit/e68a765) <br>
 updated @ 2019-12-05 à 08:00:01 - [88c5015](../../commit/88c5015) <br>
 updated @ 2019-12-05 à 07:00:01 - [057ee77](../../commit/057ee77) <br>
 
-## [2019-12-04]
+ <br>
+##[2019-12-04] <br>[2019-12-04]
 
-Currencyupdated <br>updated @ 2019-12-04 à 22:00:01 - [aa94364](../../commit/aa94364) <br>
+Currencyupdated@ <br>updated @ 2019-12-04 à 22:00:01 - [aa94364](../../commit/aa94364) <br>
 updated @ 2019-12-04 à 21:00:01 - [3cad23f](../../commit/3cad23f) <br>
 updated @ 2019-12-04 à 07:00:02 - [2f52a8b](../../commit/2f52a8b) <br>
 updated @ 2019-12-04 à 06:00:02 - [50f9821](../../commit/50f9821) <br>
 updated @ 2019-12-04 à 00:00:02 - [2355b3b](../../commit/2355b3b) <br>
 
-## [2019-12-03]
+ <br>
+##[2019-12-03] <br>[2019-12-03]
 
-Currencyupdated <br>updated @ 2019-12-03 à 23:00:02 - [c586170](../../commit/c586170) <br>
+Currencyupdated@ <br>updated @ 2019-12-03 à 23:00:02 - [c586170](../../commit/c586170) <br>
 updated @ 2019-12-03 à 22:00:02 - [735dcbf](../../commit/735dcbf) <br>
 updated @ 2019-12-03 à 21:00:01 - [65e6607](../../commit/65e6607) <br>
 updated @ 2019-12-03 à 20:00:02 - [53cfa96](../../commit/53cfa96) <br>
 updated @ 2019-12-03 à 07:00:01 - [855b39d](../../commit/855b39d) <br>
 updated @ 2019-12-03 à 06:00:02 - [14a39ba](../../commit/14a39ba) <br>
 
-## [2019-12-02]
+ <br>
+##[2019-12-02] <br>[2019-12-02]
 
-Currencyupdated <br>updated @ 2019-12-02 à 22:00:02 - [8409e51](../../commit/8409e51) <br>
+Currencyupdated@ <br>updated @ 2019-12-02 à 22:00:02 - [8409e51](../../commit/8409e51) <br>
 updated @ 2019-12-02 à 21:00:01 - [f8945dc](../../commit/f8945dc) <br>
 updated @ 2019-12-02 à 20:00:02 - [bd05667](../../commit/bd05667) <br>
 updated @ 2019-12-02 à 00:00:02 - [d21da70](../../commit/d21da70) <br>
 
-## [2019-12-01]
+ <br>
+##[2019-12-01] <br>[2019-12-01]
 
-Mergebranch <br>branch 'master' of github.com:AlFalahTaieb/DailyCurrency - [7c74119](../../commit/7c74119) <br>
+Mergebranch'master' <br>branch 'master' of github.com:AlFalahTaieb/DailyCurrency - [7c74119](../../commit/7c74119) <br>
 
-Currencyupdated <br>updated @ 2019-12-01 à 23:00:01 - [c590ff3](../../commit/c590ff3) <br>
+Currencyupdated@ <br>updated @ 2019-12-01 à 23:00:01 - [c590ff3](../../commit/c590ff3) <br>
 updated @ 2019-12-01 à 22:00:02 - [6f67105](../../commit/6f67105) <br>
 updated @ 2019-12-01 à 21:00:01 - [31ae1c0](../../commit/31ae1c0) <br>
 updated @ 2019-12-01 à 20:20:12 - [7dff8ce](../../commit/7dff8ce) <br>
@@ -248,9 +265,10 @@ updated @ 2019-12-01 à 02:00:01 - [649ef20](../../commit/649ef20) <br>
 updated @ 2019-12-01 à 01:00:02 - [a040bb5](../../commit/a040bb5) <br>
 updated @ 2019-12-01 à 00:00:01 - [9f32f7f](../../commit/9f32f7f) <br>
 
-## [2019-11-30]
+ <br>
+##[2019-11-30] <br>[2019-11-30]
 
-Currencyupdated <br>updated @ 2019-11-30 à 23:00:02 - [44b636c](../../commit/44b636c) <br>
+Currencyupdated@ <br>updated @ 2019-11-30 à 23:00:02 - [44b636c](../../commit/44b636c) <br>
 updated @ 2019-11-30 à 22:00:01 - [28d3d7f](../../commit/28d3d7f) <br>
 updated @ 2019-11-30 à 21:00:01 - [940dc02](../../commit/940dc02) <br>
 updated @ 2019-11-30 à 20:00:01 - [af56521](../../commit/af56521) <br>
@@ -260,36 +278,40 @@ updated @ 2019-11-30 à 02:00:02 - [a49622f](../../commit/a49622f) <br>
 updated @ 2019-11-30 à 01:00:03 - [c1489cb](../../commit/c1489cb) <br>
 updated @ 2019-11-30 à 00:00:02 - [af2802a](../../commit/af2802a) <br>
 
-## [2019-11-29]
+ <br>
+##[2019-11-29] <br>[2019-11-29]
 
-Currencyupdated <br>updated @ 2019-11-29 à 03:00:02 - [5a62ad4](../../commit/5a62ad4) <br>
+Currencyupdated@ <br>updated @ 2019-11-29 à 03:00:02 - [5a62ad4](../../commit/5a62ad4) <br>
 updated @ 2019-11-29 à 02:00:01 - [3a2d827](../../commit/3a2d827) <br>
 updated @ 2019-11-29 à 01:00:02 - [eface40](../../commit/eface40) <br>
 updated @ 2019-11-29 à 00:00:02 - [c483be4](../../commit/c483be4) <br>
 
-## [2019-11-28]
+ <br>
+##[2019-11-28] <br>[2019-11-28]
 
-update- <br>- [d7d2ccd](../../commit/d7d2ccd) <br>
+update-[d7d2ccd](../../commit/d7d2ccd) <br>- [d7d2ccd](../../commit/d7d2ccd) <br>
 - [29936a6](../../commit/29936a6) <br>
 
-Currencyupdated <br>updated @ 2019-11-28 à 23:00:02 - [70e2af5](../../commit/70e2af5) <br>
+Currencyupdated@ <br>updated @ 2019-11-28 à 23:00:02 - [70e2af5](../../commit/70e2af5) <br>
 updated @ 2019-11-28 à 03:00:01 - [5393ee9](../../commit/5393ee9) <br>
 updated @ 2019-11-28 à 02:00:01 - [ff5d198](../../commit/ff5d198) <br>
 updated @ 2019-11-28 à 01:00:02 - [566c6cb](../../commit/566c6cb) <br>
 updated @ 2019-11-28 à 00:00:01 - [698c9c5](../../commit/698c9c5) <br>
 
-## [2019-11-27]
+ <br>
+##[2019-11-27] <br>[2019-11-27]
 
-Currencyupdated <br>updated @ 2019-11-27 à 23:00:02 - [bac8c3b](../../commit/bac8c3b) <br>
+Currencyupdated@ <br>updated @ 2019-11-27 à 23:00:02 - [bac8c3b](../../commit/bac8c3b) <br>
 updated @ 2019-11-27 à 22:00:02 - [4796f86](../../commit/4796f86) <br>
 updated @ 2019-11-27 à 21:00:02 - [dab5726](../../commit/dab5726) <br>
 updated @ 2019-11-27 à 20:00:01 - [fcc726f](../../commit/fcc726f) <br>
 updated @ 2019-11-27 à 19:00:02 - [c54628b](../../commit/c54628b) <br>
 updated @ 2019-11-27 à 00:00:02 - [378662a](../../commit/378662a) <br>
 
-## [2019-11-26]
+ <br>
+##[2019-11-26] <br>[2019-11-26]
 
-Currencyupdated <br>updated @ 2019-11-26 à 23:00:02 - [cd54c56](../../commit/cd54c56) <br>
+Currencyupdated@ <br>updated @ 2019-11-26 à 23:00:02 - [cd54c56](../../commit/cd54c56) <br>
 updated @ 2019-11-26 à 22:00:02 - [5c767e6](../../commit/5c767e6) <br>
 updated @ 2019-11-26 à 21:00:02 - [40dae6c](../../commit/40dae6c) <br>
 updated @ 2019-11-26 à 20:00:02 - [f2ce348](../../commit/f2ce348) <br>
@@ -298,18 +320,20 @@ updated @ 2019-11-26 à 18:00:02 - [b4fce80](../../commit/b4fce80) <br>
 updated @ 2019-11-26 à 06:00:02 - [e519b18](../../commit/e519b18) <br>
 updated @ 2019-11-26 à 05:00:02 - [1fb9690](../../commit/1fb9690) <br>
 
-## [2019-11-25]
+ <br>
+##[2019-11-25] <br>[2019-11-25]
 
-Currencyupdated <br>updated @ 2019-11-25 à 22:00:02 - [ddc94bd](../../commit/ddc94bd) <br>
+Currencyupdated@ <br>updated @ 2019-11-25 à 22:00:02 - [ddc94bd](../../commit/ddc94bd) <br>
 updated @ 2019-11-25 à 21:00:02 - [e152d28](../../commit/e152d28) <br>
 updated @ 2019-11-25 à 20:00:01 - [8495392](../../commit/8495392) <br>
 updated @ 2019-11-25 à 19:00:02 - [8f86c08](../../commit/8f86c08) <br>
 updated @ 2019-11-25 à 08:00:02 - [064cabd](../../commit/064cabd) <br>
 updated @ 2019-11-25 à 00:00:02 - [ef502cb](../../commit/ef502cb) <br>
 
-## [2019-11-24]
+ <br>
+##[2019-11-24] <br>[2019-11-24]
 
-Currencyupdated <br>updated @ 2019-11-24 à 23:00:02 - [5da74e4](../../commit/5da74e4) <br>
+Currencyupdated@ <br>updated @ 2019-11-24 à 23:00:02 - [5da74e4](../../commit/5da74e4) <br>
 updated @ 2019-11-24 à 22:00:01 - [ae90050](../../commit/ae90050) <br>
 updated @ 2019-11-24 à 21:00:02 - [3d9f818](../../commit/3d9f818) <br>
 updated @ 2019-11-24 à 20:00:01 - [13cd3fd](../../commit/13cd3fd) <br>
@@ -324,24 +348,27 @@ updated @ 2019-11-24 à 12:00:02 - [40a0c3a](../../commit/40a0c3a) <br>
 updated @ 2019-11-24 à 11:00:01 - [66c25e9](../../commit/66c25e9) <br>
 updated @ 2019-11-24 à 10:18:48 - [c6baf69](../../commit/c6baf69) <br>
 
-## [2019-11-14]
+ <br>
+##[2019-11-14] <br>[2019-11-14]
 
-update- <br>- [b21c05d](../../commit/b21c05d) <br>
+update-[b21c05d](../../commit/b21c05d) <br>- [b21c05d](../../commit/b21c05d) <br>
 
-Currencyupdated <br>updated @ 2019-11-14 à 11:09:16 - [6bb2846](../../commit/6bb2846) <br>
+Currencyupdated@ <br>updated @ 2019-11-14 à 11:09:16 - [6bb2846](../../commit/6bb2846) <br>
 
-## [2019-11-03]
+ <br>
+##[2019-11-03] <br>[2019-11-03]
 
-Currencyupdated <br>updated @ 2019-11-03 à 13:00:01 - [4a92b5e](../../commit/4a92b5e) <br>
+Currencyupdated@ <br>updated @ 2019-11-03 à 13:00:01 - [4a92b5e](../../commit/4a92b5e) <br>
 updated @ 2019-11-03 à 12:00:02 - [85c9921](../../commit/85c9921) <br>
 updated @ 2019-11-03 à 11:00:02 - [d2821a6](../../commit/d2821a6) <br>
 updated @ 2019-11-03 à 02:00:02 - [e87d431](../../commit/e87d431) <br>
 updated @ 2019-11-03 à 01:00:02 - [4bb11ac](../../commit/4bb11ac) <br>
 updated @ 2019-11-03 à 00:00:01 - [1332893](../../commit/1332893) <br>
 
-## [2019-11-02]
+ <br>
+##[2019-11-02] <br>[2019-11-02]
 
-Currencyupdated <br>updated @ 2019-11-02 à 23:00:02 - [3fe00b3](../../commit/3fe00b3) <br>
+Currencyupdated@ <br>updated @ 2019-11-02 à 23:00:02 - [3fe00b3](../../commit/3fe00b3) <br>
 updated @ 2019-11-02 à 22:00:01 - [f37957c](../../commit/f37957c) <br>
 updated @ 2019-11-02 à 21:00:01 - [8b58f81](../../commit/8b58f81) <br>
 updated @ 2019-11-02 à 20:00:02 - [52d9c4c](../../commit/52d9c4c) <br>
@@ -360,9 +387,10 @@ updated @ 2019-11-02 à 08:00:02 - [85cf152](../../commit/85cf152) <br>
 updated @ 2019-11-02 à 01:00:02 - [4d2177a](../../commit/4d2177a) <br>
 updated @ 2019-11-02 à 00:00:01 - [c6ff299](../../commit/c6ff299) <br>
 
-## [2019-11-01]
+ <br>
+##[2019-11-01] <br>[2019-11-01]
 
-Currencyupdated <br>updated @ 2019-11-01 à 23:00:01 - [70faf36](../../commit/70faf36) <br>
+Currencyupdated@ <br>updated @ 2019-11-01 à 23:00:01 - [70faf36](../../commit/70faf36) <br>
 updated @ 2019-11-01 à 22:00:01 - [f3f6945](../../commit/f3f6945) <br>
 updated @ 2019-11-01 à 21:00:03 - [e856b46](../../commit/e856b46) <br>
 updated @ 2019-11-01 à 20:00:02 - [05b4db7](../../commit/05b4db7) <br>
@@ -376,34 +404,39 @@ updated @ 2019-11-01 à 09:00:02 - [940b4e0](../../commit/940b4e0) <br>
 updated @ 2019-11-01 à 08:00:01 - [7234e70](../../commit/7234e70) <br>
 updated @ 2019-11-01 à 00:00:02 - [e400a00](../../commit/e400a00) <br>
 
-## [2019-10-31]
+ <br>
+##[2019-10-31] <br>[2019-10-31]
 
-Currencyupdated <br>updated @ 2019-10-31 à 23:00:01 - [28ce6d0](../../commit/28ce6d0) <br>
+Currencyupdated@ <br>updated @ 2019-10-31 à 23:00:01 - [28ce6d0](../../commit/28ce6d0) <br>
 updated @ 2019-10-31 à 22:00:01 - [869cc92](../../commit/869cc92) <br>
 updated @ 2019-10-31 à 21:00:02 - [52e1bbc](../../commit/52e1bbc) <br>
 updated @ 2019-10-31 à 07:00:01 - [6158b08](../../commit/6158b08) <br>
 
-## [2019-10-30]
+ <br>
+##[2019-10-30] <br>[2019-10-30]
 
-Currencyupdated <br>updated @ 2019-10-30 à 22:00:02 - [c874615](../../commit/c874615) <br>
+Currencyupdated@ <br>updated @ 2019-10-30 à 22:00:02 - [c874615](../../commit/c874615) <br>
 updated @ 2019-10-30 à 21:00:01 - [b0f3e2e](../../commit/b0f3e2e) <br>
 updated @ 2019-10-30 à 01:00:01 - [b589ea6](../../commit/b589ea6) <br>
 updated @ 2019-10-30 à 00:00:02 - [6ff543b](../../commit/6ff543b) <br>
 
-## [2019-10-29]
+ <br>
+##[2019-10-29] <br>[2019-10-29]
 
-Currencyupdated <br>updated @ 2019-10-29 à 23:00:01 - [a8d3f90](../../commit/a8d3f90) <br>
+Currencyupdated@ <br>updated @ 2019-10-29 à 23:00:01 - [a8d3f90](../../commit/a8d3f90) <br>
 
-## [2019-10-28]
+ <br>
+##[2019-10-28] <br>[2019-10-28]
 
-Currencyupdated <br>updated @ 2019-10-28 à 23:00:03 - [01597e1](../../commit/01597e1) <br>
+Currencyupdated@ <br>updated @ 2019-10-28 à 23:00:03 - [01597e1](../../commit/01597e1) <br>
 updated @ 2019-10-28 à 22:00:01 - [01811c0](../../commit/01811c0) <br>
 updated @ 2019-10-28 à 21:00:02 - [fe58992](../../commit/fe58992) <br>
 updated @ 2019-10-28 à 00:00:01 - [a527a51](../../commit/a527a51) <br>
 
-## [2019-10-27]
+ <br>
+##[2019-10-27] <br>[2019-10-27]
 
-Currencyupdated <br>updated @ 2019-10-27 à 23:00:02 - [f7a841b](../../commit/f7a841b) <br>
+Currencyupdated@ <br>updated @ 2019-10-27 à 23:00:02 - [f7a841b](../../commit/f7a841b) <br>
 updated @ 2019-10-27 à 22:00:02 - [b487064](../../commit/b487064) <br>
 updated @ 2019-10-27 à 21:00:02 - [40d5731](../../commit/40d5731) <br>
 updated @ 2019-10-27 à 20:00:02 - [a4647e8](../../commit/a4647e8) <br>
@@ -419,9 +452,10 @@ updated @ 2019-10-27 à 11:00:02 - [6da9bce](../../commit/6da9bce) <br>
 updated @ 2019-10-27 à 10:00:01 - [f655b20](../../commit/f655b20) <br>
 updated @ 2019-10-27 à 00:00:01 - [2926d7e](../../commit/2926d7e) <br>
 
-## [2019-10-26]
+ <br>
+##[2019-10-26] <br>[2019-10-26]
 
-Currencyupdated <br>updated @ 2019-10-26 à 23:00:02 - [49c09e1](../../commit/49c09e1) <br>
+Currencyupdated@ <br>updated @ 2019-10-26 à 23:00:02 - [49c09e1](../../commit/49c09e1) <br>
 updated @ 2019-10-26 à 22:00:02 - [35e55d4](../../commit/35e55d4) <br>
 updated @ 2019-10-26 à 21:00:01 - [ea093f0](../../commit/ea093f0) <br>
 updated @ 2019-10-26 à 20:00:01 - [61f2dbe](../../commit/61f2dbe) <br>
@@ -432,9 +466,10 @@ updated @ 2019-10-26 à 07:00:02 - [dd9f5f0](../../commit/dd9f5f0) <br>
 updated @ 2019-10-26 à 06:00:02 - [5f8605b](../../commit/5f8605b) <br>
 updated @ 2019-10-26 à 05:00:02 - [1cc461e](../../commit/1cc461e) <br>
 
-## [2019-10-25]
+ <br>
+##[2019-10-25] <br>[2019-10-25]
 
-Currencyupdated <br>updated @ 2019-10-25 à 22:00:02 - [5933050](../../commit/5933050) <br>
+Currencyupdated@ <br>updated @ 2019-10-25 à 22:00:02 - [5933050](../../commit/5933050) <br>
 updated @ 2019-10-25 à 21:00:01 - [5cdab44](../../commit/5cdab44) <br>
 updated @ 2019-10-25 à 20:00:01 - [a46de78](../../commit/a46de78) <br>
 updated @ 2019-10-25 à 19:00:02 - [4e5b379](../../commit/4e5b379) <br>
@@ -458,30 +493,34 @@ updated @ 2019-10-25 à 02:00:02 - [315671d](../../commit/315671d) <br>
 updated @ 2019-10-25 à 01:00:01 - [89602cc](../../commit/89602cc) <br>
 updated @ 2019-10-25 à 00:00:02 - [110b830](../../commit/110b830) <br>
 
-## [2019-10-24]
+ <br>
+##[2019-10-24] <br>[2019-10-24]
 
-Currencyupdated <br>updated @ 2019-10-24 à 23:00:02 - [b5a106c](../../commit/b5a106c) <br>
+Currencyupdated@ <br>updated @ 2019-10-24 à 23:00:02 - [b5a106c](../../commit/b5a106c) <br>
 updated @ 2019-10-24 à 22:00:01 - [b2d35cf](../../commit/b2d35cf) <br>
 updated @ 2019-10-24 à 21:00:02 - [c414337](../../commit/c414337) <br>
 updated @ 2019-10-24 à 08:00:02 - [b33f20d](../../commit/b33f20d) <br>
 updated @ 2019-10-24 à 07:00:02 - [c014eac](../../commit/c014eac) <br>
 updated @ 2019-10-24 à 00:00:01 - [12b779b](../../commit/12b779b) <br>
 
-## [2019-10-23]
+ <br>
+##[2019-10-23] <br>[2019-10-23]
 
-Currencyupdated <br>updated @ 2019-10-23 à 23:00:01 - [59d93af](../../commit/59d93af) <br>
+Currencyupdated@ <br>updated @ 2019-10-23 à 23:00:01 - [59d93af](../../commit/59d93af) <br>
 updated @ 2019-10-23 à 08:00:02 - [6676f2e](../../commit/6676f2e) <br>
 updated @ 2019-10-23 à 00:00:02 - [850c9d7](../../commit/850c9d7) <br>
 
-## [2019-10-22]
+ <br>
+##[2019-10-22] <br>[2019-10-22]
 
-Currencyupdated <br>updated @ 2019-10-22 à 23:00:01 - [2b38421](../../commit/2b38421) <br>
+Currencyupdated@ <br>updated @ 2019-10-22 à 23:00:01 - [2b38421](../../commit/2b38421) <br>
 updated @ 2019-10-22 à 22:00:01 - [2d60752](../../commit/2d60752) <br>
 updated @ 2019-10-22 à 08:00:01 - [ca167a8](../../commit/ca167a8) <br>
 
-## [2019-10-21]
+ <br>
+##[2019-10-21] <br>[2019-10-21]
 
-Currencyupdated <br>updated @ 2019-10-21 à 23:00:02 - [3c7ac53](../../commit/3c7ac53) <br>
+Currencyupdated@ <br>updated @ 2019-10-21 à 23:00:02 - [3c7ac53](../../commit/3c7ac53) <br>
 updated @ 2019-10-21 à 22:00:01 - [18bb6bd](../../commit/18bb6bd) <br>
 updated @ 2019-10-21 à 21:00:02 - [6a9265b](../../commit/6a9265b) <br>
 updated @ 2019-10-21 à 20:00:01 - [46628a5](../../commit/46628a5) <br>
@@ -489,9 +528,10 @@ updated @ 2019-10-21 à 08:00:01 - [6e465a2](../../commit/6e465a2) <br>
 updated @ 2019-10-21 à 01:00:02 - [eae2b6e](../../commit/eae2b6e) <br>
 updated @ 2019-10-21 à 00:00:02 - [ae0e4ae](../../commit/ae0e4ae) <br>
 
-## [2019-10-20]
+ <br>
+##[2019-10-20] <br>[2019-10-20]
 
-Currencyupdated <br>updated @ 2019-10-20 à 23:00:02 - [c1bba9c](../../commit/c1bba9c) <br>
+Currencyupdated@ <br>updated @ 2019-10-20 à 23:00:02 - [c1bba9c](../../commit/c1bba9c) <br>
 updated @ 2019-10-20 à 22:00:01 - [d6d7980](../../commit/d6d7980) <br>
 updated @ 2019-10-20 à 21:00:02 - [8fd722e](../../commit/8fd722e) <br>
 updated @ 2019-10-20 à 20:00:01 - [d40d2e3](../../commit/d40d2e3) <br>
@@ -506,9 +546,10 @@ updated @ 2019-10-20 à 12:00:02 - [f620c3e](../../commit/f620c3e) <br>
 updated @ 2019-10-20 à 11:00:02 - [3e14b10](../../commit/3e14b10) <br>
 updated @ 2019-10-20 à 00:00:02 - [f79515b](../../commit/f79515b) <br>
 
-## [2019-10-19]
+ <br>
+##[2019-10-19] <br>[2019-10-19]
 
-Currencyupdated <br>updated @ 2019-10-19 à 23:00:02 - [fa06db2](../../commit/fa06db2) <br>
+Currencyupdated@ <br>updated @ 2019-10-19 à 23:00:02 - [fa06db2](../../commit/fa06db2) <br>
 updated @ 2019-10-19 à 22:00:01 - [a4c6399](../../commit/a4c6399) <br>
 updated @ 2019-10-19 à 21:00:02 - [4f2c6e9](../../commit/4f2c6e9) <br>
 updated @ 2019-10-19 à 20:00:02 - [3fa7f59](../../commit/3fa7f59) <br>
@@ -524,31 +565,36 @@ updated @ 2019-10-19 à 11:00:02 - [2906b7b](../../commit/2906b7b) <br>
 updated @ 2019-10-19 à 10:00:01 - [4175551](../../commit/4175551) <br>
 updated @ 2019-10-19 à 09:00:02 - [5363bec](../../commit/5363bec) <br>
 
-## [2019-10-18]
+ <br>
+##[2019-10-18] <br>[2019-10-18]
 
-Currencyupdated <br>updated @ 2019-10-18 à 08:00:02 - [469c8b9](../../commit/469c8b9) <br>
+Currencyupdated@ <br>updated @ 2019-10-18 à 08:00:02 - [469c8b9](../../commit/469c8b9) <br>
 
-## [2019-10-17]
+ <br>
+##[2019-10-17] <br>[2019-10-17]
 
-Currencyupdated <br>updated @ 2019-10-17 à 22:00:02 - [6f91d5c](../../commit/6f91d5c) <br>
+Currencyupdated@ <br>updated @ 2019-10-17 à 22:00:02 - [6f91d5c](../../commit/6f91d5c) <br>
 updated @ 2019-10-17 à 21:00:01 - [35263c1](../../commit/35263c1) <br>
 updated @ 2019-10-17 à 08:00:02 - [33a8dab](../../commit/33a8dab) <br>
 
-## [2019-10-16]
+ <br>
+##[2019-10-16] <br>[2019-10-16]
 
-Currencyupdated <br>updated @ 2019-10-16 à 23:00:02 - [fc6921b](../../commit/fc6921b) <br>
+Currencyupdated@ <br>updated @ 2019-10-16 à 23:00:02 - [fc6921b](../../commit/fc6921b) <br>
 updated @ 2019-10-16 à 22:00:01 - [2475208](../../commit/2475208) <br>
 updated @ 2019-10-16 à 00:00:01 - [5e0f6d0](../../commit/5e0f6d0) <br>
 
-## [2019-10-15]
+ <br>
+##[2019-10-15] <br>[2019-10-15]
 
-Currencyupdated <br>updated @ 2019-10-15 à 23:00:02 - [6d063dc](../../commit/6d063dc) <br>
+Currencyupdated@ <br>updated @ 2019-10-15 à 23:00:02 - [6d063dc](../../commit/6d063dc) <br>
 updated @ 2019-10-15 à 22:00:01 - [b8ee978](../../commit/b8ee978) <br>
 updated @ 2019-10-15 à 21:00:02 - [574ac51](../../commit/574ac51) <br>
 
-## [2019-10-14]
+ <br>
+##[2019-10-14] <br>[2019-10-14]
 
-Currencyupdated <br>updated @ 2019-10-14 à 23:00:01 - [929ece7](../../commit/929ece7) <br>
+Currencyupdated@ <br>updated @ 2019-10-14 à 23:00:01 - [929ece7](../../commit/929ece7) <br>
 updated @ 2019-10-14 à 22:00:02 - [7d303b2](../../commit/7d303b2) <br>
 updated @ 2019-10-14 à 21:00:01 - [47e4c56](../../commit/47e4c56) <br>
 updated @ 2019-10-14 à 20:00:01 - [b670b3a](../../commit/b670b3a) <br>
@@ -573,14 +619,16 @@ updated @ 2019-10-14 à 02:00:02 - [8d73978](../../commit/8d73978) <br>
 updated @ 2019-10-14 à 01:00:02 - [2915c04](../../commit/2915c04) <br>
 updated @ 2019-10-14 à 00:00:02 - [30603bf](../../commit/30603bf) <br>
 
-## [2019-10-13]
+ <br>
+##[2019-10-13] <br>[2019-10-13]
 
-Currencyupdated <br>updated @ 2019-10-13 à 01:00:02 - [c29d1ec](../../commit/c29d1ec) <br>
+Currencyupdated@ <br>updated @ 2019-10-13 à 01:00:02 - [c29d1ec](../../commit/c29d1ec) <br>
 updated @ 2019-10-13 à 00:00:02 - [8faa2f7](../../commit/8faa2f7) <br>
 
-## [2019-10-12]
+ <br>
+##[2019-10-12] <br>[2019-10-12]
 
-Currencyupdated <br>updated @ 2019-10-12 à 23:00:02 - [e529548](../../commit/e529548) <br>
+Currencyupdated@ <br>updated @ 2019-10-12 à 23:00:02 - [e529548](../../commit/e529548) <br>
 updated @ 2019-10-12 à 22:00:02 - [4f37e52](../../commit/4f37e52) <br>
 updated @ 2019-10-12 à 21:00:01 - [ff88d48](../../commit/ff88d48) <br>
 updated @ 2019-10-12 à 07:00:01 - [3f56019](../../commit/3f56019) <br>
@@ -591,9 +639,10 @@ updated @ 2019-10-12 à 02:00:02 - [217235c](../../commit/217235c) <br>
 updated @ 2019-10-12 à 01:00:01 - [6b6e848](../../commit/6b6e848) <br>
 updated @ 2019-10-12 à 00:00:02 - [6944183](../../commit/6944183) <br>
 
-## [2019-10-11]
+ <br>
+##[2019-10-11] <br>[2019-10-11]
 
-Currencyupdated <br>updated @ 2019-10-11 à 23:00:01 - [ef9f928](../../commit/ef9f928) <br>
+Currencyupdated@ <br>updated @ 2019-10-11 à 23:00:01 - [ef9f928](../../commit/ef9f928) <br>
 updated @ 2019-10-11 à 22:00:02 - [c698eb8](../../commit/c698eb8) <br>
 updated @ 2019-10-11 à 21:00:01 - [4308b53](../../commit/4308b53) <br>
 updated @ 2019-10-11 à 20:00:02 - [dd5d28e](../../commit/dd5d28e) <br>
@@ -611,38 +660,43 @@ updated @ 2019-10-11 à 09:00:03 - [a8d4f97](../../commit/a8d4f97) <br>
 updated @ 2019-10-11 à 08:00:02 - [752c2dc](../../commit/752c2dc) <br>
 updated @ 2019-10-11 à 07:00:01 - [bf8349a](../../commit/bf8349a) <br>
 
-## [2019-10-10]
+ <br>
+##[2019-10-10] <br>[2019-10-10]
 
-Currencyupdated <br>updated @ 2019-10-10 à 23:00:02 - [b955ac3](../../commit/b955ac3) <br>
+Currencyupdated@ <br>updated @ 2019-10-10 à 23:00:02 - [b955ac3](../../commit/b955ac3) <br>
 updated @ 2019-10-10 à 22:00:02 - [7aeee98](../../commit/7aeee98) <br>
 updated @ 2019-10-10 à 21:00:02 - [24ed025](../../commit/24ed025) <br>
 updated @ 2019-10-10 à 00:00:01 - [1a28326](../../commit/1a28326) <br>
 
-## [2019-10-09]
+ <br>
+##[2019-10-09] <br>[2019-10-09]
 
-Currencyupdated <br>updated @ 2019-10-09 à 04:00:01 - [17491ee](../../commit/17491ee) <br>
+Currencyupdated@ <br>updated @ 2019-10-09 à 04:00:01 - [17491ee](../../commit/17491ee) <br>
 updated @ 2019-10-09 à 03:00:02 - [a50fece](../../commit/a50fece) <br>
 updated @ 2019-10-09 à 02:00:01 - [67d0f20](../../commit/67d0f20) <br>
 updated @ 2019-10-09 à 01:00:02 - [8e3cad1](../../commit/8e3cad1) <br>
 updated @ 2019-10-09 à 00:00:02 - [bd4ddd2](../../commit/bd4ddd2) <br>
 
-## [2019-10-08]
+ <br>
+##[2019-10-08] <br>[2019-10-08]
 
-Currencyupdated <br>updated @ 2019-10-08 à 02:00:02 - [9e1fe90](../../commit/9e1fe90) <br>
+Currencyupdated@ <br>updated @ 2019-10-08 à 02:00:02 - [9e1fe90](../../commit/9e1fe90) <br>
 updated @ 2019-10-08 à 01:00:02 - [dfc245a](../../commit/dfc245a) <br>
 updated @ 2019-10-08 à 00:00:02 - [1bf7671](../../commit/1bf7671) <br>
 
-## [2019-10-07]
+ <br>
+##[2019-10-07] <br>[2019-10-07]
 
-Currencyupdated <br>updated @ 2019-10-07 à 23:00:01 - [2383677](../../commit/2383677) <br>
+Currencyupdated@ <br>updated @ 2019-10-07 à 23:00:01 - [2383677](../../commit/2383677) <br>
 updated @ 2019-10-07 à 22:00:02 - [c33848c](../../commit/c33848c) <br>
 updated @ 2019-10-07 à 21:00:01 - [477c090](../../commit/477c090) <br>
 updated @ 2019-10-07 à 20:00:02 - [a7ca6c2](../../commit/a7ca6c2) <br>
 updated @ 2019-10-07 à 00:00:01 - [54babf5](../../commit/54babf5) <br>
 
-## [2019-10-06]
+ <br>
+##[2019-10-06] <br>[2019-10-06]
 
-Currencyupdated <br>updated @ 2019-10-06 à 23:00:01 - [c4b14a8](../../commit/c4b14a8) <br>
+Currencyupdated@ <br>updated @ 2019-10-06 à 23:00:01 - [c4b14a8](../../commit/c4b14a8) <br>
 updated @ 2019-10-06 à 22:00:02 - [e1f40d1](../../commit/e1f40d1) <br>
 updated @ 2019-10-06 à 21:00:02 - [7e8c629](../../commit/7e8c629) <br>
 updated @ 2019-10-06 à 20:00:01 - [6ec73f5](../../commit/6ec73f5) <br>
@@ -656,9 +710,10 @@ updated @ 2019-10-06 à 13:00:01 - [67cd8ff](../../commit/67cd8ff) <br>
 updated @ 2019-10-06 à 12:00:02 - [2bb4ac5](../../commit/2bb4ac5) <br>
 updated @ 2019-10-06 à 01:00:01 - [a562663](../../commit/a562663) <br>
 
-## [2019-10-05]
+ <br>
+##[2019-10-05] <br>[2019-10-05]
 
-Currencyupdated <br>updated @ 2019-10-05 à 19:00:02 - [ebd2fb2](../../commit/ebd2fb2) <br>
+Currencyupdated@ <br>updated @ 2019-10-05 à 19:00:02 - [ebd2fb2](../../commit/ebd2fb2) <br>
 updated @ 2019-10-05 à 18:00:01 - [6b6a500](../../commit/6b6a500) <br>
 updated @ 2019-10-05 à 17:00:02 - [1c2cb62](../../commit/1c2cb62) <br>
 updated @ 2019-10-05 à 16:00:01 - [e0f0ac9](../../commit/e0f0ac9) <br>
@@ -678,29 +733,34 @@ updated @ 2019-10-05 à 02:00:01 - [59ada6b](../../commit/59ada6b) <br>
 updated @ 2019-10-05 à 01:00:01 - [5126279](../../commit/5126279) <br>
 updated @ 2019-10-05 à 00:00:02 - [997ca95](../../commit/997ca95) <br>
 
-## [2019-10-04]
+ <br>
+##[2019-10-04] <br>[2019-10-04]
 
-Currencyupdated <br>updated @ 2019-10-04 à 00:00:01 - [10b7e52](../../commit/10b7e52) <br>
+Currencyupdated@ <br>updated @ 2019-10-04 à 00:00:01 - [10b7e52](../../commit/10b7e52) <br>
 
-## [2019-10-03]
+ <br>
+##[2019-10-03] <br>[2019-10-03]
 
-Currencyupdated <br>updated @ 2019-10-03 à 00:00:01 - [fa9aed6](../../commit/fa9aed6) <br>
+Currencyupdated@ <br>updated @ 2019-10-03 à 00:00:01 - [fa9aed6](../../commit/fa9aed6) <br>
 
-## [2019-10-02]
+ <br>
+##[2019-10-02] <br>[2019-10-02]
 
-Currencyupdated <br>updated @ 2019-10-02 à 23:00:02 - [d275f1c](../../commit/d275f1c) <br>
+Currencyupdated@ <br>updated @ 2019-10-02 à 23:00:02 - [d275f1c](../../commit/d275f1c) <br>
 updated @ 2019-10-02 à 22:00:01 - [5258111](../../commit/5258111) <br>
 updated @ 2019-10-02 à 21:00:02 - [141d0d2](../../commit/141d0d2) <br>
 updated @ 2019-10-02 à 00:00:02 - [cd676af](../../commit/cd676af) <br>
 
-## [2019-10-01]
+ <br>
+##[2019-10-01] <br>[2019-10-01]
 
-Currencyupdated <br>updated @ 2019-10-01 à 01:00:01 - [2bccd74](../../commit/2bccd74) <br>
+Currencyupdated@ <br>updated @ 2019-10-01 à 01:00:01 - [2bccd74](../../commit/2bccd74) <br>
 updated @ 2019-10-01 à 00:00:01 - [aedfe0e](../../commit/aedfe0e) <br>
 
-## [2019-09-30]
+ <br>
+##[2019-09-30] <br>[2019-09-30]
 
-Currencyupdated <br>updated @ 2019-09-30 à 23:00:03 - [cdac6c4](../../commit/cdac6c4) <br>
+Currencyupdated@ <br>updated @ 2019-09-30 à 23:00:03 - [cdac6c4](../../commit/cdac6c4) <br>
 updated @ 2019-09-30 à 22:00:01 - [ad3c0e1](../../commit/ad3c0e1) <br>
 updated @ 2019-09-30 à 21:00:02 - [21ada99](../../commit/21ada99) <br>
 updated @ 2019-09-30 à 20:00:01 - [93c9a09](../../commit/93c9a09) <br>
@@ -708,9 +768,10 @@ updated @ 2019-09-30 à 02:00:02 - [ebecff2](../../commit/ebecff2) <br>
 updated @ 2019-09-30 à 01:00:01 - [5242378](../../commit/5242378) <br>
 updated @ 2019-09-30 à 00:00:02 - [0462ecf](../../commit/0462ecf) <br>
 
-## [2019-09-29]
+ <br>
+##[2019-09-29] <br>[2019-09-29]
 
-Currencyupdated <br>updated @ 2019-09-29 à 23:00:02 - [31b896e](../../commit/31b896e) <br>
+Currencyupdated@ <br>updated @ 2019-09-29 à 23:00:02 - [31b896e](../../commit/31b896e) <br>
 updated @ 2019-09-29 à 22:00:01 - [f4ac4dd](../../commit/f4ac4dd) <br>
 updated @ 2019-09-29 à 21:00:02 - [60bc919](../../commit/60bc919) <br>
 updated @ 2019-09-29 à 20:00:01 - [473e277](../../commit/473e277) <br>
@@ -723,22 +784,25 @@ updated @ 2019-09-29 à 08:00:01 - [fcf446d](../../commit/fcf446d) <br>
 updated @ 2019-09-29 à 01:00:03 - [218714c](../../commit/218714c) <br>
 updated @ 2019-09-29 à 00:00:02 - [a4f5543](../../commit/a4f5543) <br>
 
-## [2019-09-28]
+ <br>
+##[2019-09-28] <br>[2019-09-28]
 
-Currencyupdated <br>updated @ 2019-09-28 à 23:00:02 - [8a5b38e](../../commit/8a5b38e) <br>
+Currencyupdated@ <br>updated @ 2019-09-28 à 23:00:02 - [8a5b38e](../../commit/8a5b38e) <br>
 updated @ 2019-09-28 à 09:00:02 - [ad6d6dd](../../commit/ad6d6dd) <br>
 updated @ 2019-09-28 à 08:00:02 - [193291e](../../commit/193291e) <br>
 updated @ 2019-09-28 à 07:00:02 - [1edd321](../../commit/1edd321) <br>
 updated @ 2019-09-28 à 00:00:02 - [dae0b82](../../commit/dae0b82) <br>
 
-## [2019-09-27]
+ <br>
+##[2019-09-27] <br>[2019-09-27]
 
-Currencyupdated <br>updated @ 2019-09-27 à 23:00:02 - [053a2ff](../../commit/053a2ff) <br>
+Currencyupdated@ <br>updated @ 2019-09-27 à 23:00:02 - [053a2ff](../../commit/053a2ff) <br>
 updated @ 2019-09-27 à 00:00:01 - [84d330e](../../commit/84d330e) <br>
 
-## [2019-09-26]
+ <br>
+##[2019-09-26] <br>[2019-09-26]
 
-Currencyupdated <br>updated @ 2019-09-26 à 23:00:01 - [938e32f](../../commit/938e32f) <br>
+Currencyupdated@ <br>updated @ 2019-09-26 à 23:00:01 - [938e32f](../../commit/938e32f) <br>
 updated @ 2019-09-26 à 22:00:02 - [2f57ffe](../../commit/2f57ffe) <br>
 updated @ 2019-09-26 à 21:00:01 - [fd31162](../../commit/fd31162) <br>
 updated @ 2019-09-26 à 07:00:01 - [5c7fc0c](../../commit/5c7fc0c) <br>
@@ -750,21 +814,24 @@ updated @ 2019-09-26 à 02:00:01 - [c5a6398](../../commit/c5a6398) <br>
 updated @ 2019-09-26 à 01:00:02 - [4f5eafd](../../commit/4f5eafd) <br>
 updated @ 2019-09-26 à 00:00:02 - [c5620c6](../../commit/c5620c6) <br>
 
-## [2019-09-25]
+ <br>
+##[2019-09-25] <br>[2019-09-25]
 
-Currencyupdated <br>updated @ 2019-09-25 à 23:00:01 - [6eac040](../../commit/6eac040) <br>
+Currencyupdated@ <br>updated @ 2019-09-25 à 23:00:01 - [6eac040](../../commit/6eac040) <br>
 
-## [2019-09-22]
+ <br>
+##[2019-09-22] <br>[2019-09-22]
 
-Currencyupdated <br>updated @ 2019-09-22 à 13:00:01 - [0737ca4](../../commit/0737ca4) <br>
+Currencyupdated@ <br>updated @ 2019-09-22 à 13:00:01 - [0737ca4](../../commit/0737ca4) <br>
 updated @ 2019-09-22 à 12:00:02 - [ead285a](../../commit/ead285a) <br>
 updated @ 2019-09-22 à 11:00:02 - [74db782](../../commit/74db782) <br>
 updated @ 2019-09-22 à 10:00:01 - [873d7bb](../../commit/873d7bb) <br>
 updated @ 2019-09-22 à 00:00:02 - [4feb99e](../../commit/4feb99e) <br>
 
-## [2019-09-21]
+ <br>
+##[2019-09-21] <br>[2019-09-21]
 
-Currencyupdated <br>updated @ 2019-09-21 à 23:00:02 - [1996056](../../commit/1996056) <br>
+Currencyupdated@ <br>updated @ 2019-09-21 à 23:00:02 - [1996056](../../commit/1996056) <br>
 updated @ 2019-09-21 à 22:00:02 - [20ea946](../../commit/20ea946) <br>
 updated @ 2019-09-21 à 21:00:02 - [54aaa8c](../../commit/54aaa8c) <br>
 updated @ 2019-09-21 à 20:00:01 - [69c3365](../../commit/69c3365) <br>
@@ -779,21 +846,24 @@ updated @ 2019-09-21 à 03:00:02 - [84e235f](../../commit/84e235f) <br>
 updated @ 2019-09-21 à 02:00:01 - [86c9129](../../commit/86c9129) <br>
 updated @ 2019-09-21 à 01:00:01 - [270019a](../../commit/270019a) <br>
 
-## [2019-09-20]
+ <br>
+##[2019-09-20] <br>[2019-09-20]
 
-Currencyupdated <br>updated @ 2019-09-20 à 08:00:02 - [16b8b79](../../commit/16b8b79) <br>
+Currencyupdated@ <br>updated @ 2019-09-20 à 08:00:02 - [16b8b79](../../commit/16b8b79) <br>
 updated @ 2019-09-20 à 00:00:02 - [b995d19](../../commit/b995d19) <br>
 
-## [2019-09-19]
+ <br>
+##[2019-09-19] <br>[2019-09-19]
 
-Currencyupdated <br>updated @ 2019-09-19 à 23:00:02 - [ec904bc](../../commit/ec904bc) <br>
+Currencyupdated@ <br>updated @ 2019-09-19 à 23:00:02 - [ec904bc](../../commit/ec904bc) <br>
 updated @ 2019-09-19 à 22:00:02 - [045c52f](../../commit/045c52f) <br>
 updated @ 2019-09-19 à 21:00:02 - [afe8c4c](../../commit/afe8c4c) <br>
 updated @ 2019-09-19 à 20:00:02 - [ff28578](../../commit/ff28578) <br>
 
-## [2019-09-18]
+ <br>
+##[2019-09-18] <br>[2019-09-18]
 
-Currencyupdated <br>updated @ 2019-09-18 à 23:00:02 - [ed7fefe](../../commit/ed7fefe) <br>
+Currencyupdated@ <br>updated @ 2019-09-18 à 23:00:02 - [ed7fefe](../../commit/ed7fefe) <br>
 updated @ 2019-09-18 à 22:00:01 - [937d036](../../commit/937d036) <br>
 updated @ 2019-09-18 à 21:00:02 - [2228e6c](../../commit/2228e6c) <br>
 updated @ 2019-09-18 à 20:00:02 - [ca46935](../../commit/ca46935) <br>
@@ -806,9 +876,10 @@ updated @ 2019-09-18 à 00:03:02 - [7c806f4](../../commit/7c806f4) <br>
 updated @ 2019-09-18 à 00:02:01 - [67e3983](../../commit/67e3983) <br>
 updated @ 2019-09-18 à 00:01:01 - [33b3e57](../../commit/33b3e57) <br>
 
-## [2019-09-17]
+ <br>
+##[2019-09-17] <br>[2019-09-17]
 
-Currencyupdated <br>updated @ 2019-09-17 à 23:59:02 - [546ed48](../../commit/546ed48) <br>
+Currencyupdated@ <br>updated @ 2019-09-17 à 23:59:02 - [546ed48](../../commit/546ed48) <br>
 updated @ 2019-09-17 à 23:59:01 - [63376cd](../../commit/63376cd) <br>
 updated @ 2019-09-17 à 23:57:35 - [0d6e18a](../../commit/0d6e18a) <br>
 updated @ 2019-09-17 à 23:57:05 - [37218fa](../../commit/37218fa) <br>
@@ -832,24 +903,28 @@ updated @ 2019-09-17 à 21:45:40 - [6673721](../../commit/6673721) <br>
 updated @ 2019-09-17 à 07:52:11 - [f082d63](../../commit/f082d63) <br>
 updated @ 2019-09-17 à 00:12:56 - [ef235e7](../../commit/ef235e7) <br>
 
-check- <br>- [8f2ffbe](../../commit/8f2ffbe) <br>
+check-[8f2ffbe](../../commit/8f2ffbe) <br>- [8f2ffbe](../../commit/8f2ffbe) <br>
 
-## [2019-09-16]
+ <br>
+##[2019-09-16] <br>[2019-09-16]
 
-addingscript <br>script to push@Github - [ba3a6d0](../../commit/ba3a6d0) <br>
+addingscriptto <br>script to push@Github - [ba3a6d0](../../commit/ba3a6d0) <br>
 
-## [2019-09-15]
+ <br>
+##[2019-09-15] <br>[2019-09-15]
 
-Updatingthe <br>the working script - [2e4dfd1](../../commit/2e4dfd1) <br>
+Updatingtheworking <br>the working script - [2e4dfd1](../../commit/2e4dfd1) <br>
 
-## [2019-09-14]
+ <br>
+##[2019-09-14] <br>[2019-09-14]
 
-playingaround <br>around with Jq - [25c2cb6](../../commit/25c2cb6) <br>
+playingaroundwith <br>around with Jq - [25c2cb6](../../commit/25c2cb6) <br>
 
-Notbad <br>bad as first attempt - [b92c2ae](../../commit/b92c2ae) <br>
+Notbadas <br>bad as first attempt - [b92c2ae](../../commit/b92c2ae) <br>
 
-## [2019-09-13]
+ <br>
+##[2019-09-13] <br>[2019-09-13]
 
-Initialcommit <br>commit - [5504e8c](../../commit/5504e8c) <br>
+Initialcommit- <br>commit - [5504e8c](../../commit/5504e8c) <br>
 
-init- <br>- [b79221b](../../commit/b79221b) <br>
+init-[b79221b](../../commit/b79221b) <br>- [b79221b](../../commit/b79221b) <br>
