@@ -47,7 +47,11 @@ git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ;
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     echo "## [$DATE]"
        # GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --after="$DATE 00:00:00" --until="$DATE 24:00:00"  |   sort -g |  sed -n -e '/📦/{p;n;}' -e '/🐛/{p;n;}' -e '/🚀/{p;n;}' -e '/📦/{p;n;}' -e '/✅/{p;n;}' 
-    GIT_PAGER=cat git log  --format="$FORMAT <br>" --after="$DATE 00:00:00:" --until="$DATE 24:00:00"  | sort -g
+    GIT_PAGER=cat git log  --format="$FORMAT <br>" --after="$DATE 00:00:00:" --until="$DATE 24:00:00" | sort -r | less |  awk  '
+prev!=$1  { prev=$1 ; printf "%s%s <br>", NR==$1? "" : ORS, $1 $2 , ORS }
+prev==$1 { for (i=2;i<=NF; i++){ printf "%s%s", $i, i==NF ? ORS : OFS} }
+' 
+
     NEXT=$DATE 
 
 done >  CHANGELOG.md 
@@ -61,7 +65,7 @@ if [ "$CHANGELOG_FILE"  != "" ]; then
   rm -rf $CHANGELOG_FILE
   touch $CHANGELOG_FILE
 fi
-
+: '
 echo "### Select the Operation you want to perform ###"
 echo "  1)Versioning & Deploy "
 echo "  2)Deploy"
@@ -71,7 +75,7 @@ case $n in
   1) getVersion; deploy;;
   2) deploy;;
 esac
-
+'
 
 #getVersion
-#deploy
+deploy

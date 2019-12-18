@@ -103,17 +103,26 @@ Adding Unit Test to Jira
 
 ### Commits with Emoji 😃
 
-🐛FIX: Fix Rob responding problem
 
-👌IMPROVE: Update Lex Utterances 
 
-📖DOC: Write Artifactory Documentation 
 
-🚀RELEASE: Realase chat version of Rob
 
-✅TEST: Add Unit-Test to Jira
+
+
+
+
+
 
 ----------
+
+| Snippet | Exemple |
+| --- | --- |
+| 📦NEW: |   📦NEW: Add CHANGELOG.md        |
+| 👌IMPROVE: |   👌IMPROVE: Update Lex Utterances   |
+| 🐛FIX: |  🐛FIX: Fix Rob responding problem   |
+| 🚀RELEASE: |  🚀RELEASE: Realase chat version of Rob   |
+| 📖DOC: |   📖DOC: Write Artifactory Documentation   |
+| ✅TEST: | ✅TEST: Add Unit-Test to Jira    |
 
 ## How to add Emoji on comment ? 
 
