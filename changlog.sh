@@ -10,6 +10,7 @@ PURPLE="\033[1;35m"
 CYAN="\033[1;36m"
 WHITE="\033[1;37m"
 RESET="\033[0m"
+STARTING_DATE="2019-12-16 00:00:00"
 getVersion(){
         BASE_STRING=`cat VERSION`
     BASE_LIST=(`echo $BASE_STRING | tr '.' ' '`)
@@ -30,7 +31,7 @@ getVersion(){
     echo $INPUT_STRING > VERSION
 }
 
-
+#cat temp.md | awk '$2!=prev{print (prev=$2 ":") }  {print $s}'   > test.md
 CHANGELOG_FILE=CHANGELOG.md
 
 deploy(){
@@ -45,11 +46,12 @@ git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ;
     echo
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     echo "## [$DATE]"
-    GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --since="$DATE 00:00:00" --until="$DATE 24:00:00"  | sed -n -e '/📦/{p;n;}' -e '/🐛/{p;n;}' -e '/🚀/{p;n;}' -e '/📦/{p;n;}' -e '/✅/{p;n;}' |  sort -g 
+       # GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --after="$DATE 00:00:00" --until="$DATE 24:00:00"  |   sort -g |  sed -n -e '/📦/{p;n;}' -e '/🐛/{p;n;}' -e '/🚀/{p;n;}' -e '/📦/{p;n;}' -e '/✅/{p;n;}' 
+    GIT_PAGER=cat git log  --format="$FORMAT <br>" --after="$DATE 00:00:00:" --until="$DATE 24:00:00"  | sort -g
     NEXT=$DATE 
 
-#done >  CHANGELOG.md 
-done > temp.md   
+done >  CHANGELOG.md 
+
 #cat diff temp.md CHANGELOG.md
 
 }
