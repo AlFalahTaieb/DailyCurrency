@@ -35,24 +35,37 @@ getVersion(){
 CHANGELOG_FILE=CHANGELOG.md
 
 deploy(){
-FORMAT=" %s - $COMMITREF "
 COMMITREF="[%h](../../commit/%h)"
+FORMAT=" %s - $COMMITREF "
+
 echo "# CHANGELOG" >> $CHANGELOG_FILE
 NEXT=$(date +%F)
 echo "CHANGELOG"
 echo "$DATE"
 echo ----------------------
-git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ; do
+git log --no-merges --format="%cd" --date=short --since="2019-12-13 00:00:00:" --until="$DATE 24:00:00"  | sort -u -r | while read DATE ; do
     echo
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     echo "## [$DATE]"
        # GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --after="$DATE 00:00:00" --until="$DATE 24:00:00"  |   sort -g |  sed -n -e '/📦/{p;n;}' -e '/🐛/{p;n;}' -e '/🚀/{p;n;}' -e '/📦/{p;n;}' -e '/✅/{p;n;}' 
-    GIT_PAGER=cat git log  --format="$FORMAT <br>" --after="$DATE 00:00:00:" --until="$DATE 24:00:00" | sort -r | less |  awk  '
-prev!=$1  { prev=$1 ; printf "%s%s <br>", NR==$1? "" : ORS, $1 $2 , ORS }
-prev==$1 { for (i=2;i<=NF; i++){ printf "%s%s", $i, i==NF ? ORS : OFS} }
-' 
+    GIT_PAGER=cat git log  --format="$FORMAT <br>" --since="2019-12-13 00:00:00:" --until="$DATE 24:00:00"  | sed  '
+s/🐛Fix:/:bug: FIX: /g ; 
+s/👌IMPROVE:/:ok_hand: IMPROVE: /g;
+s/:book:IMPROVE:Improve/:book: IMPROVE: /g;
+s/📦NEW/:package: NEW:/g;
+s/🚀RELEASE:/:rocket: RELEASE: /g;
+s/✅TEST/:white_check_mark: TEST: /g;
+s/📖DOC:/:book: DOC: /g' |   sort -k2 -n  | less  | awk -F"\t" '/[NEW|IMPROVE|FIX|RELEASE|DOC|TEST]/ ' |  awk  '
+prev!=$1  { prev=$1 ; printf "%s>%s <br>", NR==$1? ":" : ORS, $1 $2 , ORS }
+prev==$1 { for (i=3;i<=NF; i++){
+   printf "%s%s", $i, i==NF ? ORS : OFS
+   
+   } 
+   
+   }
+'  
 
-    NEXT=$DATE 
+#    NEXT=$DATE 
 
 done >  CHANGELOG.md 
 

@@ -10,18 +10,18 @@ changeEmojiDependingtohour(){
     messageEmoji=""
     if [ $(date +%H) -le "$a" ]
     then
-        messageEmoji = '📦 NEW: '
+        messageEmoji = ':package: NEW: '
          echo $messageEmoji
     elif [ $(date +%H) -le "$b" ]
     then
-        echo '🐛 Fix: '
+        echo ':bug: FIX: '
          echo $messageEmoji
     elif [ $(date +%H) -le "$c" ]
     then
-        messageEmoji -le '🚀 RELEASE: '
+        messageEmoji -le ':rocket: RELEASE: '
          echo $messageEmoji
     elif [ $(date +%H) -le "$d" ]
-    then messageEmoji= '✅ TEST : '
+    then messageEmoji= ':white_check_mark: TEST: '
         echo $messageEmoji
     fi
 
