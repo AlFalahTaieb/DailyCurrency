@@ -56,7 +56,7 @@ push(){
     
     cd "/home/taieb/Bureau/Bash/autobotnews/"
     git add .
-    git commit -m $(changeEmojiDependingtohour) "Currency updated @ $now"
+    git commit -m  "$(changeEmojiDependingtohour) Currency updated @ $now"
     git push
 }
 
