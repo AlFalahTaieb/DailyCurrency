@@ -6,25 +6,22 @@ changeEmojiDependingtohour(){
     a=5
     b=10
     c=15
-    d=20
+    d=23
     messageEmoji=""
     if [ $(date +%H) -le "$a" ]
     then
-        messageEmoji = ':package: NEW: '
-         echo $messageEmoji
+       echo ':package: NEW: '
+         # echo $messageEmoji
     elif [ $(date +%H) -le "$b" ]
     then
         echo ':bug: FIX: '
-         echo $messageEmoji
     elif [ $(date +%H) -le "$c" ]
     then
-        messageEmoji -le ':rocket: RELEASE: '
-         echo $messageEmoji
-    elif [ $(date +%H) -le "$d" ]
-    then messageEmoji= ':white_check_mark: TEST: '
-        echo $messageEmoji
-    fi
+     echo ':rocket: RELEASE: '
 
+    elif [ $(date +%H) -le "$d" ]
+    then echo ':white_check_mark: TEST: '
+    fi
     }
 
 
@@ -56,12 +53,12 @@ push(){
     
     cd "/home/taieb/Bureau/Bash/autobotnews/"
     git add .
-    git commit -m $(changeEmojiDependingtohour) "Currency updated @ $now"
+    git commit -m   " $(changeEmojiDependingtohour) Currency updated @ $now"
     git push
 }
 
 
-
+changeEmojiDependingtohour
 getInfo > /home/taieb/Bureau/Bash/autobotnews/currency.json
 # getTime > /home/taieb/Bureau/Bash/autobotnews/time.txt
 extract
