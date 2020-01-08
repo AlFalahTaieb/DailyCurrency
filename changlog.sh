@@ -43,13 +43,13 @@ NEXT=$(date +%F)
 echo "CHANGELOG"
 echo "$DATE"
 echo ----------------------
-git log --no-merges --format="%cd" --date=short --since="2019-12-13 00:00:00:" --until="$DATE 24:00:00"  | sort -u -r | while read DATE ; do
+git log --no-merges --format="%cd" --date=short --since="2019-12-29 00:00:00"  --until="$DATE 24:00:00"  | sort -u -r | while read DATE ; do
     echo
     #echo "<h3> :shipit: [$DATE] :shipit: </h3>"
     echo "## [$DATE]"
        # GIT_PAGER=cat git log --no-merges --format=">$FORMAT <br>" --after="$DATE 00:00:00" --until="$DATE 24:00:00"  |   sort -g |  sed -n -e '/📦/{p;n;}' -e '/🐛/{p;n;}' -e '/🚀/{p;n;}' -e '/📦/{p;n;}' -e '/✅/{p;n;}' 
-    GIT_PAGER=cat git log  --format="$FORMAT <br>" --since="2019-12-13 00:00:00:" --until="$DATE 24:00:00"  | sed  '
-s/🐛Fix:/:bug: FIX: /g ; 
+    GIT_PAGER=cat git log  --no-merges  --format="$FORMAT <br>" --since="2019-12-29 00:00:00"  --until="$DATE 24:00:00" |   sort -g |  sed  '
+s/🐛FIX:/:bug: FIX: /g ; 
 s/👌IMPROVE:/:ok_hand: IMPROVE: /g;
 s/:book:IMPROVE:Improve/:book: IMPROVE: /g;
 s/📦NEW/:package: NEW:/g;
