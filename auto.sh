@@ -2,6 +2,28 @@
 
 
 . /home/taieb/Bureau/Bash/autobotnews/secret
+changeEmojiDependingtohour(){
+    a=5
+    b=10
+    c=15
+    d=23
+    messageEmoji=""
+    if [ $(date +%H) -le "$a" ]
+    then
+       echo ':package: NEW: '
+         # echo $messageEmoji
+    elif [ $(date +%H) -le "$b" ]
+    then
+        echo ':bug: FIX: '
+    elif [ $(date +%H) -le "$c" ]
+    then
+     echo ':rocket: RELEASE: '
+
+    elif [ $(date +%H) -le "$d" ]
+    then echo ':white_check_mark: TEST: '
+    fi
+    }
+
 
 
 getInfo(){
@@ -24,17 +46,19 @@ extract(){
     btc=$(sed '5q;d' /home/taieb/Bureau/Bash/autobotnews/currency.json)
     # echo $base
     
-    echo  "## Getting daily currency, This automated script is using [jq](https://stedolan.github.io/jq/)\n""## Last Update: " $now"\n ""# Monaie de base : 1" $base 💶 "\n" "# Equivaut en 🇹🇳 à : " $tnd "\n" "# Equivaut en 💵 à :" $usd"\n" "# Equivaut en 🐱‍💻 à : " $btc > /home/taieb/Bureau/Bash/autobotnews/README.md
-    
+ echo  "## Getting daily currency, This automated script is using [jq](https://stedolan.github.io/jq/)\n""## Last Update: " $now"\n ""# Monaie de base : 1" $base 💶 "\n" "# Equivaut en 🇹🇳 à : " $tnd "\n" "# Equivaut en 💵 à :" $usd"\n" "# Equivaut en 🐱‍💻 à : " $btc > /home/taieb/Bureau/Bash/autobotnews/README.md    
 }
 
 push(){
+    
     cd "/home/taieb/Bureau/Bash/autobotnews/"
     git add .
-    git commit -m "Currency updated @ $now"
+    git commit -m   " $(changeEmojiDependingtohour) Currency updated @ $now"
     git push
 }
 
+
+changeEmojiDependingtohour
 getInfo > /home/taieb/Bureau/Bash/autobotnews/currency.json
 # getTime > /home/taieb/Bureau/Bash/autobotnews/time.txt
 extract
