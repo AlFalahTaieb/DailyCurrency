@@ -1,1 +1,1 @@
-## Getting daily currency, This automated script is using [jq](https://stedolan.github.io/jq/)\n## Last Update:  2020-01-30 à 23:21:14\n # Monaie de base : 1 "EUR" 💶 \n # Equivaut en 🇹🇳 à :  3.113707 \n # Equivaut en 💵 à : 1.103271\n # Equivaut en 🐱‍💻 à :  0.000115
+## Getting daily currency, This automated script is using [jq](https://stedolan.github.io/jq/)\n## Last Update:  2020-02-02 à 16:08:20\n # Monaie de base : 1 "EUR" 💶 \n # Equivaut en 🇹🇳 à :  3.123087 \n # Equivaut en 💵 à : 1.10943\n # Equivaut en 🐱‍💻 à :  0.000119
