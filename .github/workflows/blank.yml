@@ -11,13 +11,11 @@ jobs:
   issue:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/labeler@v2
-      with:
-        repo-token: ${{ secrets.TOKEN }}
     - name: Execute Shell Script
       run: |
         pwd
-        chmod +x . ../auto.sh
-        . ../auto.sh
-              
+        chmod +x ./auto.sh
+        ./auto.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
               
