@@ -16,7 +16,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
     - name: Execute Shell Script
       run: |
-        chmod +x ./auto.sh
-        ./auto.sh
+        pwd
+        chmod +x . ../auto.sh
+        . ../auto.sh
               
               
