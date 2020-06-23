@@ -8,12 +8,15 @@ on:
     # * is a special character in YAML so you have to quote this string
     - cron:  '*/1 * * * *'
 jobs:
-  stale:
+  issue:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/stale@v1.1.0
+    - uses: actions/labeler@v2
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          chmod +x ./auto.sh
-          ./auto.sh
+    - name: Execute Shell Script
+      run: |
+        chmod +x ./auto.sh
+        ./auto.sh
+              
+              
