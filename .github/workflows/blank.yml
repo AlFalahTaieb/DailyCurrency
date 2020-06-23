@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Execute Shell Script
       run: |
-        pwd
+        cd ..
         chmod +x ./auto.sh
         ./auto.sh
       env:
