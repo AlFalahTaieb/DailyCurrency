@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Shell Script to Run
+
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '*/1 * * * *'
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/stale@v1.1.0
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x ./auto.sh
+          ./auto.sh
