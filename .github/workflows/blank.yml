@@ -12,8 +12,8 @@ jobs:
     - name: Execute Shell Script
       run: |
         cd ..
-        chmod 777 auto.sh
-        . auto.sh
+        chmod 777 ./auto.sh
+        ./auto.sh
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
               
